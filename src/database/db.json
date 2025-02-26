@@ -1,0 +1,189 @@
+{
+  "workouts": [
+    {
+      "id": 1740462715656,
+      "createdAt": "2025-02-25T05:51:55.656Z",
+      "updatedAt": "2025-02-25T05:51:55.656Z"
+    },
+    {
+      "id": 1740462864085,
+      "name": "Updated Workout",
+      "mode": "AMRAP",
+      "equipment": [
+        "barbell",
+        "rope"
+      ],
+      "exercises": [
+        "21 thrusters",
+        "12 rope climbs, 15 ft",
+        "15 thrusters",
+        "9 rope climbs, 15 ft",
+        "9 thrusters",
+        "6 rope climbs, 15 ft"
+      ],
+      "createdAt": "2025-02-25T05:54:24.085Z",
+      "updatedAt": "2025-02-25T05:54:24.085Z",
+      "trainerTips": [
+        "Split the 21 thrusters as needed",
+        "Try to do the 9 and 6 thrusters unbroken",
+        "RX Weights: 115lb/75lb"
+      ]
+    },
+    {
+      "id": "b4d844bf-8de0-468b-ace5-311e8fb33982",
+      "name": "Power Workout",
+      "mode": "For Time",
+      "equipment": [
+        "dumbbells",
+        "jump rope",
+        "medicine ball"
+      ],
+      "exercises": [
+        "30 dumbbell snatches",
+        "50 double unders",
+        "20 medicine ball slams",
+        "40 double unders",
+        "10 dumbbell thrusters"
+      ],
+      "createdAt": "2025-02-25T07:34:15.357Z",
+      "updatedAt": "2025-02-25T07:34:15.357Z",
+      "trainerTips": [
+        "Focus on maintaining proper form during dumbbell snatches.",
+        "Make sure to get full extension during the jump rope exercises.",
+        "For the medicine ball slams, focus on explosive movements."
+      ]
+    },
+    {
+      "id": "6d514330-37c6-4862-8987-8b3737f7999c",
+      "name": "Bodyweight Burn",
+      "mode": "For Time",
+      "equipment": [
+        "none"
+      ],
+      "exercises": [
+        "30 push-ups",
+        "40 bodyweight squats",
+        "50 jumping jacks",
+        "30 sit-ups",
+        "20 burpees"
+      ],
+      "createdAt": "2025-02-25T07:35:39.307Z",
+      "updatedAt": "2025-02-25T07:35:39.307Z",
+      "trainerTips": [
+        "Keep your core engaged throughout the movements.",
+        "Perform exercises with good form to avoid injury.",
+        "Try to maintain a steady pace to complete the workout in time."
+      ]
+    },
+    {
+      "id": "7ceb5a75-f4bc-4606-92eb-c6f2a7806edc",
+      "name": "Healthy Eating Plan",
+      "mode": "Meal Plan",
+      "equipment": [
+        "blender",
+        "microwave",
+        "meal prep containers"
+      ],
+      "exercises": [
+        "Breakfast Smoothie: 1 cup almond milk, 1 banana, 1 tablespoon peanut butter, 1 scoop protein powder",
+        "Lunch Salad: Mixed greens, grilled chicken, avocado, olive oil dressing",
+        "Dinner Stir-Fry: Lean beef, bell peppers, onions, quinoa"
+      ],
+      "createdAt": "2025-02-25T07:37:14.243Z",
+      "updatedAt": "2025-02-25T07:37:14.243Z",
+      "trainerTips": [
+        "Ensure a balance of protein, carbs, and healthy fats in every meal.",
+        "Prep your meals in advance to save time during the week.",
+        "Stay hydrated with water throughout the day."
+      ]
+    },
+    {
+      "id": "1da0cd8a-ccfa-41d3-b3c5-b19ef0c84c9e",
+      "name": "Barbell Strength Circuit",
+      "mode": "For Reps",
+      "equipment": [
+        "barbell",
+        "weight plates",
+        "bench"
+      ],
+      "exercises": [
+        "10 barbell squats",
+        "8 barbell bench press",
+        "12 deadlifts",
+        "6 barbell overhead press"
+      ],
+      "createdAt": "2025/2/25 16:40:51",
+      "updatedAt": "2025/2/25 16:40:51",
+      "trainerTips": [
+        "Focus on controlled movements with the barbell.",
+        "Maintain proper form for all lifts to avoid injury.",
+        "Use moderate to heavy weights for optimal results."
+      ]
+    },
+    {
+      "id": "3bb823e1-cfed-4890-9668-5607ca997c79",
+      "name": "Morning Cardio Blast",
+      "mode": "Cardio",
+      "equipment": [
+        "Running Shoes",
+        "Treadmill"
+      ],
+      "exercises": [
+        "Jogging",
+        "Sprint",
+        "Jumping Jacks"
+      ],
+      "trainerTips": [
+        "Warm up for 5 minutes before starting.",
+        "Keep a steady pace during the jog.",
+        "Focus on your breathing during sprints."
+      ],
+      "createdAt": "2025-02-26T05:49:22.376Z",
+      "updatedAt": "2025-02-26T05:49:22.376Z"
+    },
+    {
+      "id": "54fa5031-e8d4-4bcc-b0a8-530d0dd79714",
+      "name": "Strength Training Routine",
+      "mode": "Strength",
+      "equipment": [
+        "Dumbbell",
+        "Barbell",
+        "Bench Press"
+      ],
+      "exercises": [
+        "Deadlift",
+        "Bench Press",
+        "Squat",
+        "Overhead Press"
+      ],
+      "trainerTips": [
+        "Ensure your form is perfect to prevent injury.",
+        "Start with a lower weight and gradually increase.",
+        "Don’t forget to rest between sets."
+      ],
+      "createdAt": "2025-02-26T05:50:03.635Z",
+      "updatedAt": "2025-02-26T05:50:03.636Z"
+    },
+    {
+      "id": "e950f2fa-9e5b-42c4-9447-625f1d96cfc7",
+      "name": "update check Beginner Full Body",
+      "mode": "Strength",
+      "equipment": [
+        "Dumbbells",
+        "Mat"
+      ],
+      "exercises": [
+        "Push-ups",
+        "Squats",
+        "Lunges",
+        "Plank"
+      ],
+      "trainerTips": [
+        "Keep your core engaged during planks.",
+        "Start with light weights and focus on form."
+      ],
+      "createdAt": "2025-02-26T06:04:18.236Z",
+      "updatedAt": "2025-02-26T06:04:18.236Z"
+    }
+  ]
+}
