@@ -1,10 +1,10 @@
-import express from 'express';
-import workoutRoutes from "./workoutRoutes.js";
+import { Router } from 'express';
+import workoutRoutes from './workoutRoutes.js';
 
-// Constants
-const router = express.Router();
+// Create main router
+const router = Router();
 
-// Routes
-router.use("/workout", workoutRoutes);
+// Connect workout routes
+router.use('/workout', workoutRoutes);
 
 export default router;

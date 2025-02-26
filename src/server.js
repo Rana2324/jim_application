@@ -1,22 +1,20 @@
+// Import required packages
 import express from 'express';
 import morgan from 'morgan';
 import router from './routes/index.js';
 
-// Constants
+// Create server
 const app = express();
 const PORT = 4000;
 
-// Simple Morgan setup to log requests
+// Setup middleware
 app.use(morgan('dev'));
-
-// Middleware for JSON and URL encoding
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
-// Routes 
-app.use("/api/v1", router);
+// Setup routes
+app.use('/api/v1', router);
 
-// Server
+// Start server
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT} http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${PORT}`);
 });

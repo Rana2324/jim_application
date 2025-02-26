@@ -30,52 +30,6 @@
       ]
     },
     {
-      "id": "b4d844bf-8de0-468b-ace5-311e8fb33982",
-      "name": "Power Workout",
-      "mode": "For Time",
-      "equipment": [
-        "dumbbells",
-        "jump rope",
-        "medicine ball"
-      ],
-      "exercises": [
-        "30 dumbbell snatches",
-        "50 double unders",
-        "20 medicine ball slams",
-        "40 double unders",
-        "10 dumbbell thrusters"
-      ],
-      "createdAt": "2025-02-25T07:34:15.357Z",
-      "updatedAt": "2025-02-25T07:34:15.357Z",
-      "trainerTips": [
-        "Focus on maintaining proper form during dumbbell snatches.",
-        "Make sure to get full extension during the jump rope exercises.",
-        "For the medicine ball slams, focus on explosive movements."
-      ]
-    },
-    {
-      "id": "6d514330-37c6-4862-8987-8b3737f7999c",
-      "name": "Bodyweight Burn",
-      "mode": "For Time",
-      "equipment": [
-        "none"
-      ],
-      "exercises": [
-        "30 push-ups",
-        "40 bodyweight squats",
-        "50 jumping jacks",
-        "30 sit-ups",
-        "20 burpees"
-      ],
-      "createdAt": "2025-02-25T07:35:39.307Z",
-      "updatedAt": "2025-02-25T07:35:39.307Z",
-      "trainerTips": [
-        "Keep your core engaged throughout the movements.",
-        "Perform exercises with good form to avoid injury.",
-        "Try to maintain a steady pace to complete the workout in time."
-      ]
-    },
-    {
       "id": "7ceb5a75-f4bc-4606-92eb-c6f2a7806edc",
       "name": "Healthy Eating Plan",
       "mode": "Meal Plan",
@@ -184,6 +138,52 @@
       ],
       "createdAt": "2025-02-26T06:04:18.236Z",
       "updatedAt": "2025-02-26T06:04:18.236Z"
+    },
+    {
+      "id": "4f69174c-ea57-402e-947a-19764da06416",
+      "name": "Strength Training Routine",
+      "mode": "Strength",
+      "equipment": [
+        "Dumbbell",
+        "Barbell",
+        "Bench Press"
+      ],
+      "exercises": [
+        "Deadlift",
+        "Bench Press",
+        "Squat",
+        "Overhead Press"
+      ],
+      "trainerTips": [
+        "Ensure your form is perfect to prevent injury.",
+        "Start with a lower weight and gradually increase.",
+        "Don’t forget to rest between sets."
+      ],
+      "createdAt": "2025-02-26T07:02:06.418Z",
+      "updatedAt": "2025-02-26T07:02:06.419Z"
+    },
+    {
+      "id": "fbbf50fb-6366-4a29-957f-55a3654d668b",
+      "name": "updated   ffffffffffffffffff----------",
+      "mode": "Strength",
+      "equipment": [
+        "Dumbbell",
+        "Barbell",
+        "Bench Press"
+      ],
+      "exercises": [
+        "Deadlift",
+        "Bench Press",
+        "Squat",
+        "Overhead Press"
+      ],
+      "trainerTips": [
+        "Ensure your form is perfect to prevent injury.",
+        "Start with a lower weight and gradually increase.",
+        "Don’t forget to rest between sets."
+      ],
+      "createdAt": "2025/2/26 16:40:37",
+      "updatedAt": "2025/2/26 16:41:13"
     }
   ]
 }

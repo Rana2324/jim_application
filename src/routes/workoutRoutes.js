@@ -1,14 +1,14 @@
-import express from 'express';
-import * as workoutController from "../controllers/workoutController.js";
+import { Router } from 'express';
+import WorkoutController from '../controllers/workoutController.js';
 
-// Constants
-const router = express.Router();
+// Create workout router
+const router = Router();
 
-// Routes for workouts
-router.get("/", workoutController.allWorkouteController);
-router.get("/:workoutId", workoutController.singleWorkouteController);
-router.post("/", workoutController.createWorkouteController);
-router.patch("/:workoutId", workoutController.updateWorkouteController);
-router.delete("/:workoutId", workoutController.deleteWorkouteController);
+// Basic CRUD routes
+router.get('/', WorkoutController.getAll);
+router.get('/:id', WorkoutController.getOne);
+router.post('/', WorkoutController.create);
+router.patch('/:id', WorkoutController.update);
+router.delete('/:id', WorkoutController.delete);
 
 export default router;
