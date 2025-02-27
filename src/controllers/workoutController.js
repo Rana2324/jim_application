@@ -1,4 +1,3 @@
-// controllers/workoutController.js
 import WorkoutService from '../services/workoutService.js';
 
 const WorkoutController = {

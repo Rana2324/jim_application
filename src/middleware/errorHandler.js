@@ -64,10 +64,10 @@ import chalk from 'chalk';
 export const errorHandler = (err, req, res, next) => {
     const timestamp = new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
 
-    console.error(chalk.bold.bgRed.white(' ❌ ERROR ') + ' ' + chalk.red.bold(err.message));
-    console.error(chalk.bold.bgCyan.white(' 🕒 TIMESTAMP ') + ' ' + chalk.cyan(timestamp));
-    console.error(chalk.bold.bgBlue.white(' 🌐 REQUEST ') + ' ' + chalk.whiteBright(`${req.method} ${req.url}`));
-    console.error(chalk.bold.bgGreen.white(' 📱 USER-AGENT ') + ' ' + chalk.green(req.headers['user-agent']));
+    console.error(chalk.bold.bgRed.white(' ❌ ERROR ') + ' ' + chalk.red.bold.underline(err.message));
+    console.error(chalk.bold.bgCyan.white(' 🕒 TIMESTAMP ') + ' ' + chalk.cyan.underline(timestamp));
+    console.error(chalk.bold.bgBlue.white(' 🌐 REQUEST ') + ' ' + chalk.whiteBright.underline(`${req.method} ${req.url}`));
+    console.error(chalk.bold.bgGreen.white(' 📱 USER-AGENT ') + ' ' + chalk.green.underline(req.headers['user-agent']));
     console.error(chalk.bold.bgGray.white(' 🛠 STACK TRACE '));
     console.error(chalk.redBright(err.stack));
 
@@ -80,4 +80,8 @@ export const errorHandler = (err, req, res, next) => {
         message
     });
 };
+
+
+
+
 
