@@ -4,7 +4,7 @@ import DbUtils from './dbUtils.js';
 const Database = {
     // Get all workouts
     getAll: async () => {
-        return await DbUtils.read();
+        return await DbUtilsread();
     },
 
     // Get one workout

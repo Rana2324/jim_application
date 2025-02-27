@@ -1,57 +1,49 @@
+// controllers/workoutController.js
 import WorkoutService from '../services/workoutService.js';
 
-/**
- * Workout Controller
- * Handles all HTTP requests for workout operations
- */
 const WorkoutController = {
-    // Get all workouts
-    getAll: async (req, res) => {
+    getAll: async (req, res, next) => {
         try {
             const workouts = await WorkoutService.getAll();
             res.json({ ok: true, data: workouts });
         } catch (error) {
-            res.status(500).json({ ok: false, error: 'Could not get workouts' });
+            next(error); // Pass error to the next middleware (error handler)
         }
     },
 
-    // Get one workout
-    getOne: async (req, res) => {
+    getOne: async (req, res, next) => {
         try {
             const workout = await WorkoutService.getOne(req.params.id);
             res.json({ ok: true, data: workout });
         } catch (error) {
-            res.status(404).json({ ok: false, error: 'Workout not found' });
+            next(error); // Pass error to the next middleware (error handler)
         }
     },
 
-    // Create new workout
-    create: async (req, res) => {
+    create: async (req, res, next) => {
         try {
             const workout = await WorkoutService.create(req.body);
             res.status(201).json({ ok: true, data: workout });
         } catch (error) {
-            res.status(400).json({ ok: false, error: 'Could not create workout' });
+            next(error); // Pass error to the next middleware (error handler)
         }
     },
 
-    // Update workout
-    update: async (req, res) => {
+    update: async (req, res, next) => {
         try {
             const workout = await WorkoutService.update(req.params.id, req.body);
             res.json({ ok: true, data: workout });
         } catch (error) {
-            res.status(404).json({ ok: false, error: 'Workout not found' });
+            next(error); // Pass error to the next middleware (error handler)
         }
     },
 
-    // Delete workout
-    delete: async (req, res) => {
+    delete: async (req, res, next) => {
         try {
             await WorkoutService.delete(req.params.id);
             res.json({ ok: true, message: 'Workout deleted' });
         } catch (error) {
-            res.status(404).json({ ok: false, error: 'Workout not found' });
+            next(error); // Pass error to the next middleware (error handler)
         }
     }
 };

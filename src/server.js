@@ -2,6 +2,7 @@
 import express from 'express';
 import morgan from 'morgan';
 import router from './routes/index.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 // Create server
 const app = express();
@@ -13,6 +14,9 @@ app.use(express.json());
 
 // Setup routes
 app.use('/api/v1', router);
+
+// Use the error handler middleware
+app.use(errorHandler);
 
 // Start server
 app.listen(PORT, () => {
