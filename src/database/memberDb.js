@@ -13,14 +13,14 @@ const memberDb = {
       throw new CustomError("Failed to retrieve members", error.status || 500);
     }
   },
-  getOne: async (id) => {
+  getOne: async (memberId) => {
     try {
 
       const members = await dbUtils.read("members");
-      const member = members.find((member) => member.id === id);
+      const member = members.find((member) => member.id === memberId);
 
       if (!member) {
-        throw new CustomError(`Member with id ${id} not found`, 404);
+        throw new CustomError(`Member with id ${memberId} not found`, 404);
       }
       return member;
     } catch (error) {
