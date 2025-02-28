@@ -39,11 +39,21 @@ npm start
 
 Base URL: `http://localhost:4000/api/v1`
 
+#### Workouts | ওয়ার্কআউট
 - `GET /workouts` - Get all workouts | সব ওয়ার্কআউট দেখুন
 - `POST /workouts` - Create a new workout | নতুন ওয়ার্কআউট তৈরি করুন
 - `GET /workouts/:workoutId` - Get a specific workout | নির্দিষ্ট ওয়ার্কআউট দেখুন
 - `PATCH /workouts/:workoutId` - Update a workout | ওয়ার্কআউট আপডেট করুন
 - `DELETE /workouts/:workoutId` - Delete a workout | ওয়ার্কআউট ডিলিট করুন
+
+#### Members | মেম্বার
+- `GET /members` - Get all members | সব মেম্বার দেখুন
+- `POST /members` - Register a new member | নতুন মেম্বার নিবন্ধন করুন
+- `GET /members/:memberId` - Get a specific member | নির্দিষ্ট মেম্বার দেখুন
+- `PATCH /members/:memberId` - Update member information | মেম্বারের তথ্য আপডেট করুন
+- `DELETE /members/:memberId` - Delete a member | মেম্বার ডিলিট করুন
+- `GET /members/:memberId/workouts` - Get member's workout history | মেম্বারের ওয়ার্কআউট ইতিহাস দেখুন
+- `POST /members/:memberId/workouts` - Assign workout to member | মেম্বারকে ওয়ার্কআউট বরাদ্দ করুন
 
 ### Project Structure | প্রজেক্ট স্ট্রাকচার
 
