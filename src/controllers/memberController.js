@@ -12,13 +12,7 @@ const memberController = {
   },
   getOne: async (req, res, next) => {
     try {
-      const { memberId } = req.params;
-      if (!memberId) {
-        return res
-          .status(400)
-          .json({ ok: false, message: "Invalid member ID" });
-      }
-      const member = await memberService.getOne(memberId);
+      const member = await memberService.getOne(req.params.memberId);
       res.json({ ok: true, message: "Member fetched successfully", data: member });
     } catch (error) {
       console.error("Error in getOne:", error);
