@@ -4,7 +4,13 @@ const WorkoutController = {
     getAll: async (req, res, next) => {
         try {
             const workouts = await WorkoutService.getAll();
-            res.json({ ok: true, data: workouts });
+            res.json({
+                ok: true,
+                message: 'Workouts retrieved',
+                data: workouts
+
+            })
+           
         } catch (error) {
             next(error); // Pass error to the next middleware (error handler)
         }
@@ -13,7 +19,7 @@ const WorkoutController = {
     getOne: async (req, res, next) => {
         try {
             const workout = await WorkoutService.getOne(req.params.id);
-            res.json({ ok: true, data: workout });
+            res.json({ ok: true,message: 'Workout retrieved', data: workout });
         } catch (error) {
             next(error); // Pass error to the next middleware (error handler)
         }
@@ -22,7 +28,7 @@ const WorkoutController = {
     create: async (req, res, next) => {
         try {
             const workout = await WorkoutService.create(req.body);
-            res.status(201).json({ ok: true, data: workout });
+            res.status(201).json({ ok: true,message: 'Workout created', data: workout });
         } catch (error) {
             next(error); // Pass error to the next middleware (error handler)
         }
@@ -31,7 +37,7 @@ const WorkoutController = {
     update: async (req, res, next) => {
         try {
             const workout = await WorkoutService.update(req.params.id, req.body);
-            res.json({ ok: true, data: workout });
+            res.json({ ok: true,message: 'Workout updated', data: workout });
         } catch (error) {
             next(error); // Pass error to the next middleware (error handler)
         }
