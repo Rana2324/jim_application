@@ -44,34 +44,11 @@
         "Dinner Stir-Fry: Lean beef, bell peppers, onions, quinoa"
       ],
       "createdAt": "2025-02-25T07:37:14.243Z",
-      "updatedAt": "2025-02-25T07:37:14.243Z",
+      "updatedAt": "2025/2/27 23:14:10",
       "trainerTips": [
         "Ensure a balance of protein, carbs, and healthy fats in every meal.",
         "Prep your meals in advance to save time during the week.",
         "Stay hydrated with water throughout the day."
-      ]
-    },
-    {
-      "id": "1da0cd8a-ccfa-41d3-b3c5-b19ef0c84c9e",
-      "name": "Barbell Strength Circuit",
-      "mode": "For Reps",
-      "equipment": [
-        "barbell",
-        "weight plates",
-        "bench"
-      ],
-      "exercises": [
-        "10 barbell squats",
-        "8 barbell bench press",
-        "12 deadlifts",
-        "6 barbell overhead press"
-      ],
-      "createdAt": "2025/2/25 16:40:51",
-      "updatedAt": "2025/2/25 16:40:51",
-      "trainerTips": [
-        "Focus on controlled movements with the barbell.",
-        "Maintain proper form for all lifts to avoid injury.",
-        "Use moderate to heavy weights for optimal results."
       ]
     },
     {
@@ -183,7 +160,122 @@
         "Don’t forget to rest between sets."
       ],
       "createdAt": "2025/2/26 16:40:37",
-      "updatedAt": "2025/2/26 16:41:13"
+      "updatedAt": "2025/2/27 23:31:44"
+    },
+    {
+      "id": "4a592ef1-30d7-42bf-814e-4e52773e22e3",
+      "createdAt": "2025/2/27 23:32:19"
+    },
+    {
+      "id": "59427f5b-36b8-42c7-8ee9-e27573e6b9c2",
+      "createdAt": "2025/2/27 23:32:25"
+    },
+    {
+      "id": "4bc74bcd-9b09-4a49-8abf-6c06af8248a1",
+      "createdAt": "2025/2/27 23:34:14"
+    },
+    {
+      "id": "92824663-34e4-4ee5-a729-af0458aec6b0",
+      "createdAt": "2025/2/27 23:35:35"
+    },
+    {
+      "id": "3bebaec2-2aac-44b9-bac8-7375c22ef7c1",
+      "createdAt": "2025/2/27 23:38:42"
+    },
+    {
+      "id": "b5151778-d597-4f66-903e-26aec31ddd45",
+      "createdAt": "2025/2/27 23:38:44"
+    },
+    {
+      "id": "3243ceb1-f907-4a63-ab4c-a6d8189b9d80",
+      "createdAt": "2025/2/27 23:42:07"
+    },
+    {
+      "id": "9ffddbdc-4d00-4b39-a3fe-e88afede1b18",
+      "createdAt": "2025/2/27 23:42:16"
+    },
+    {
+      "id": "2a269ec1-7c5f-4004-a9d0-a12e07b99e92",
+      "createdAt": "2025/2/27 23:42:17"
+    },
+    {
+      "id": "61a04f7a-6231-4d1e-8444-8e9d4f3946c3",
+      "createdAt": "2025/2/27 23:44:32"
+    },
+    {
+      "id": "0c41109c-88aa-4290-ae8a-609da2e59749",
+      "createdAt": "2025/2/27 23:44:35"
+    },
+    {
+      "id": "ddcdcc60-9ac7-42c0-b065-88326a346560",
+      "createdAt": "2025/2/27 23:44:35"
+    },
+    {
+      "id": "ec69612e-46be-46f2-8277-4d4c89daf6cc",
+      "createdAt": "2025/2/27 23:44:50"
+    },
+    {
+      "id": "c5bc6006-8c09-4cfd-b928-64cf398ba98d",
+      "createdAt": "2025/2/27 23:45:57"
+    }
+  ],
+  "members": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "name": "Jason Miller",
+      "gender": "male",
+      "dateOfBirth": "23/04/1990",
+      "email": "jason@mail.com",
+      "password": "666349420ec497c1dc890c45179d44fb13220239325172af02d1fb6635922956"
+    },
+    {
+      "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "name": "Tiffany Brookston",
+      "gender": "female",
+      "dateOfBirth": "09/06/1996",
+      "email": "tiffy@mail.com",
+      "password": "8a1ea5669b749354110dcba3fac5546c16e6d0f73a37f35a84f6b0d7b3c22fcc"
+    },
+    {
+      "id": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "name": "Catrin Stevenson",
+      "gender": "female",
+      "dateOfBirth": "17/08/2001",
+      "email": "catrin@mail.com",
+      "password": "18eb2d6c5373c94c6d5d707650d02c3c06f33fac557c9cfb8cb1ee625a649ff3"
+    },
+    {
+      "id": "6a89217b-7c28-4219-bd7f-af119c314159",
+      "name": "Greg Bronson",
+      "gender": "male",
+      "dateOfBirth": "08/04/1993",
+      "email": "greg@mail.com",
+      "password": "a6dcde7eceb689142f21a1e30b5fdb868ec4cd25d5537d67ac7e8c7816b0e862"
+    },
+    {},
+    {},
+    {}
+  ],
+  "records": [
+    {
+      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "160 reps"
+    },
+    {
+      "id": "0bff586f-2017-4526-9e52-fe3ea46d55ab",
+      "workout": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
+      "record": "7:23 minutes"
+    },
+    {
+      "id": "365cc0bb-ba8f-41d3-bf82-83d041d38b82",
+      "workout": "a24d2618-01d1-4682-9288-8de1343e53c7",
+      "record": "358 reps"
+    },
+    {
+      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "145 reps"
     }
   ]
 }
