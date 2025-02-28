@@ -6,10 +6,10 @@ const router = Router();
 
 // Basic CRUD routes
 router.get("/", WorkoutController.getAll);
-router.get("/:id", WorkoutController.getOne);
+router.get("/:workoutId", WorkoutController.getOne);
 router.post("/", WorkoutController.create);
-router.patch("/:id", WorkoutController.update);
-router.delete("/:id", WorkoutController.delete);
+router.patch("/:workoutId", WorkoutController.update);
+router.delete("/:workoutId", WorkoutController.delete);
 
 
 

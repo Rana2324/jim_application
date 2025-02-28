@@ -1,103 +1,8 @@
 {
   "workouts": [
     {
-      "id": 1740462715656,
-      "createdAt": "2025-02-25T05:51:55.656Z",
-      "updatedAt": "2025-02-25T05:51:55.656Z"
-    },
-    {
-      "id": 1740462864085,
-      "name": "Updated Workout",
-      "mode": "AMRAP",
-      "equipment": [
-        "barbell",
-        "rope"
-      ],
-      "exercises": [
-        "21 thrusters",
-        "12 rope climbs, 15 ft",
-        "15 thrusters",
-        "9 rope climbs, 15 ft",
-        "9 thrusters",
-        "6 rope climbs, 15 ft"
-      ],
-      "createdAt": "2025-02-25T05:54:24.085Z",
-      "updatedAt": "2025-02-25T05:54:24.085Z",
-      "trainerTips": [
-        "Split the 21 thrusters as needed",
-        "Try to do the 9 and 6 thrusters unbroken",
-        "RX Weights: 115lb/75lb"
-      ]
-    },
-    {
-      "id": "7ceb5a75-f4bc-4606-92eb-c6f2a7806edc",
-      "name": "Healthy Eating Plan",
-      "mode": "Meal Plan",
-      "equipment": [
-        "blender",
-        "microwave",
-        "meal prep containers"
-      ],
-      "exercises": [
-        "Breakfast Smoothie: 1 cup almond milk, 1 banana, 1 tablespoon peanut butter, 1 scoop protein powder",
-        "Lunch Salad: Mixed greens, grilled chicken, avocado, olive oil dressing",
-        "Dinner Stir-Fry: Lean beef, bell peppers, onions, quinoa"
-      ],
-      "createdAt": "2025-02-25T07:37:14.243Z",
-      "updatedAt": "2025/2/27 23:14:10",
-      "trainerTips": [
-        "Ensure a balance of protein, carbs, and healthy fats in every meal.",
-        "Prep your meals in advance to save time during the week.",
-        "Stay hydrated with water throughout the day."
-      ]
-    },
-    {
-      "id": "3bb823e1-cfed-4890-9668-5607ca997c79",
-      "name": "Morning Cardio Blast",
-      "mode": "Cardio",
-      "equipment": [
-        "Running Shoes",
-        "Treadmill"
-      ],
-      "exercises": [
-        "Jogging",
-        "Sprint",
-        "Jumping Jacks"
-      ],
-      "trainerTips": [
-        "Warm up for 5 minutes before starting.",
-        "Keep a steady pace during the jog.",
-        "Focus on your breathing during sprints."
-      ],
-      "createdAt": "2025-02-26T05:49:22.376Z",
-      "updatedAt": "2025-02-26T05:49:22.376Z"
-    },
-    {
-      "id": "54fa5031-e8d4-4bcc-b0a8-530d0dd79714",
-      "name": "Strength Training Routine",
-      "mode": "Strength",
-      "equipment": [
-        "Dumbbell",
-        "Barbell",
-        "Bench Press"
-      ],
-      "exercises": [
-        "Deadlift",
-        "Bench Press",
-        "Squat",
-        "Overhead Press"
-      ],
-      "trainerTips": [
-        "Ensure your form is perfect to prevent injury.",
-        "Start with a lower weight and gradually increase.",
-        "Don’t forget to rest between sets."
-      ],
-      "createdAt": "2025-02-26T05:50:03.635Z",
-      "updatedAt": "2025-02-26T05:50:03.636Z"
-    },
-    {
-      "id": "e950f2fa-9e5b-42c4-9447-625f1d96cfc7",
-      "name": "update check Beginner Full Body",
+      "id": "b56d213d-29b4-4d34-8f0d-55eec4454f4f",
+      "name": "Beginner Full Body",
       "mode": "Strength",
       "equipment": [
         "Dumbbells",
@@ -112,111 +17,64 @@
       "trainerTips": [
         "Keep your core engaged during planks.",
         "Start with light weights and focus on form."
-      ],
-      "createdAt": "2025-02-26T06:04:18.236Z",
-      "updatedAt": "2025-02-26T06:04:18.236Z"
+      ]
     },
     {
-      "id": "4f69174c-ea57-402e-947a-19764da06416",
-      "name": "Strength Training Routine",
-      "mode": "Strength",
+      "id": "7ecfd46e-d945-4cb5-b9cf-aba0db6c8748",
+      "name": "Cardio Fat Burn",
+      "mode": "Cardio",
       "equipment": [
-        "Dumbbell",
-        "Barbell",
-        "Bench Press"
+        "Jump Rope",
+        "Running Shoes"
       ],
       "exercises": [
-        "Deadlift",
-        "Bench Press",
-        "Squat",
-        "Overhead Press"
+        "Jump Rope",
+        "High Knees",
+        "Burpees",
+        "Mountain Climbers"
       ],
       "trainerTips": [
-        "Ensure your form is perfect to prevent injury.",
-        "Start with a lower weight and gradually increase.",
-        "Don’t forget to rest between sets."
-      ],
-      "createdAt": "2025-02-26T07:02:06.418Z",
-      "updatedAt": "2025-02-26T07:02:06.419Z"
+        "Stay light on your feet during jumps.",
+        "Pace yourself, but challenge your limits."
+      ]
     },
     {
-      "id": "fbbf50fb-6366-4a29-957f-55a3654d668b",
-      "name": "updated   ffffffffffffffffff----------",
+      "id": "0c71da3b-8b3a-4f35-a142-f1cb32c0f167",
+      "name": "Advanced Strength Training",
       "mode": "Strength",
       "equipment": [
-        "Dumbbell",
         "Barbell",
-        "Bench Press"
+        "Bench",
+        "Dumbbells"
       ],
       "exercises": [
-        "Deadlift",
+        "Deadlifts",
         "Bench Press",
-        "Squat",
-        "Overhead Press"
+        "Pull-ups",
+        "Squats"
       ],
       "trainerTips": [
-        "Ensure your form is perfect to prevent injury.",
-        "Start with a lower weight and gradually increase.",
-        "Don’t forget to rest between sets."
+        "Focus on proper form to avoid injury.",
+        "Challenge yourself with heavier weights as you progress."
+      ]
+    },
+    {
+      "id": "d59dfc4b-97a9-44a0-a1b6-c9b041a6de45",
+      "name": "HIIT Workout",
+      "mode": "Cardio",
+      "equipment": [
+        "None"
       ],
-      "createdAt": "2025/2/26 16:40:37",
-      "updatedAt": "2025/2/27 23:31:44"
-    },
-    {
-      "id": "4a592ef1-30d7-42bf-814e-4e52773e22e3",
-      "createdAt": "2025/2/27 23:32:19"
-    },
-    {
-      "id": "59427f5b-36b8-42c7-8ee9-e27573e6b9c2",
-      "createdAt": "2025/2/27 23:32:25"
-    },
-    {
-      "id": "4bc74bcd-9b09-4a49-8abf-6c06af8248a1",
-      "createdAt": "2025/2/27 23:34:14"
-    },
-    {
-      "id": "92824663-34e4-4ee5-a729-af0458aec6b0",
-      "createdAt": "2025/2/27 23:35:35"
-    },
-    {
-      "id": "3bebaec2-2aac-44b9-bac8-7375c22ef7c1",
-      "createdAt": "2025/2/27 23:38:42"
-    },
-    {
-      "id": "b5151778-d597-4f66-903e-26aec31ddd45",
-      "createdAt": "2025/2/27 23:38:44"
-    },
-    {
-      "id": "3243ceb1-f907-4a63-ab4c-a6d8189b9d80",
-      "createdAt": "2025/2/27 23:42:07"
-    },
-    {
-      "id": "9ffddbdc-4d00-4b39-a3fe-e88afede1b18",
-      "createdAt": "2025/2/27 23:42:16"
-    },
-    {
-      "id": "2a269ec1-7c5f-4004-a9d0-a12e07b99e92",
-      "createdAt": "2025/2/27 23:42:17"
-    },
-    {
-      "id": "61a04f7a-6231-4d1e-8444-8e9d4f3946c3",
-      "createdAt": "2025/2/27 23:44:32"
-    },
-    {
-      "id": "0c41109c-88aa-4290-ae8a-609da2e59749",
-      "createdAt": "2025/2/27 23:44:35"
-    },
-    {
-      "id": "ddcdcc60-9ac7-42c0-b065-88326a346560",
-      "createdAt": "2025/2/27 23:44:35"
-    },
-    {
-      "id": "ec69612e-46be-46f2-8277-4d4c89daf6cc",
-      "createdAt": "2025/2/27 23:44:50"
-    },
-    {
-      "id": "c5bc6006-8c09-4cfd-b928-64cf398ba98d",
-      "createdAt": "2025/2/27 23:45:57"
+      "exercises": [
+        "Burpees",
+        "Mountain Climbers",
+        "Jumping Jacks",
+        "High Knees"
+      ],
+      "trainerTips": [
+        "Perform each exercise for 30 seconds, rest for 15 seconds.",
+        "Push yourself to the limit during each interval."
+      ]
     }
   ],
   "members": [
@@ -224,58 +82,127 @@
       "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
       "name": "Jason Miller",
       "gender": "male",
-      "dateOfBirth": "23/04/1990",
+      "dateOfBirth": "1990-04-23",
       "email": "jason@mail.com",
-      "password": "666349420ec497c1dc890c45179d44fb13220239325172af02d1fb6635922956"
+      "password": "hashed_password_here",
+      "address": "123 Oak St, Springfield, IL",
+      "phone": "+1 555-555-5555"
     },
     {
       "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
       "name": "Tiffany Brookston",
       "gender": "female",
-      "dateOfBirth": "09/06/1996",
+      "dateOfBirth": "1996-06-09",
       "email": "tiffy@mail.com",
-      "password": "8a1ea5669b749354110dcba3fac5546c16e6d0f73a37f35a84f6b0d7b3c22fcc"
+      "password": "hashed_password_here",
+      "address": "456 Pine Rd, Greenfield, WI",
+      "phone": "+1 555-555-1234"
     },
     {
-      "id": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
-      "name": "Catrin Stevenson",
-      "gender": "female",
-      "dateOfBirth": "17/08/2001",
-      "email": "catrin@mail.com",
-      "password": "18eb2d6c5373c94c6d5d707650d02c3c06f33fac557c9cfb8cb1ee625a649ff3"
-    },
-    {
-      "id": "6a89217b-7c28-4219-bd7f-af119c314159",
-      "name": "Greg Bronson",
+      "id": "3c8f01d5-122f-4de3-bf0a-d61a1ff731e7",
+      "name": "Jim",
       "gender": "male",
-      "dateOfBirth": "08/04/1993",
-      "email": "greg@mail.com",
-      "password": "a6dcde7eceb689142f21a1e30b5fdb868ec4cd25d5537d67ac7e8c7816b0e862"
+      "dateOfBirth": "1992-01-12",
+      "email": "jim@mail.com",
+      "password": "hashed_password_here",
+      "address": "789 Birch Ave, Rivertown, TX",
+      "phone": "+1 555-555-6789"
     },
-    {},
-    {},
-    {}
+    {
+      "id": "0d4f907a-b8fa-4ad2-a7ae-bf37630981a5",
+      "name": "Ella Hart",
+      "gender": "female",
+      "dateOfBirth": "1988-03-17",
+      "email": "ella@mail.com",
+      "password": "hashed_password_here",
+      "address": "101 Maple Dr, Lakedale, CA",
+      "phone": "+1 555-555-2345"
+    },
+    {
+      "id": "b2e2c772-9751-44f4-954e-d227a60206d9",
+      "name": "Michael Davis",
+      "gender": "male",
+      "dateOfBirth": "1990-08-20",
+      "email": "michael@mail.com",
+      "password": "hashed_password_here",
+      "address": "202 Cedar Ln, Oakville, FL",
+      "phone": "+1 555-555-9876"
+    }
   ],
   "records": [
     {
-      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
-      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
-      "record": "160 reps"
+      "id": "28f76f47-1546-45e2-907e-dbf7a8c79697",
+      "members": [
+        {
+          "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+          "name": "Jason Miller",
+          "gender": "male",
+          "dateOfBirth": "1990-04-23",
+          "email": "jason@mail.com",
+          "password": "hashed_password_here"
+        },
+        {
+          "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+          "name": "Tiffany Brookston",
+          "gender": "female",
+          "dateOfBirth": "1996-06-09",
+          "email": "tiffy@mail.com",
+          "password": "hashed_password_here"
+        }
+      ],
+      "createdAt": "2025-02-28T11:34:47+09:00"
     },
     {
-      "id": "0bff586f-2017-4526-9e52-fe3ea46d55ab",
-      "workout": "d8be2362-7b68-4ea4-a1f6-03f8bc4eede7",
-      "record": "7:23 minutes"
+      "id": "309e0940-eefe-43ec-a5c0-bc954dc39f58",
+      "members": [
+        {
+          "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+          "name": "Jason Miller",
+          "gender": "male",
+          "dateOfBirth": "1990-04-23",
+          "email": "jason@mail.com",
+          "password": "hashed_password_here"
+        },
+        {
+          "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+          "name": "Tiffany Brookston",
+          "gender": "female",
+          "dateOfBirth": "1996-06-09",
+          "email": "tiffy@mail.com",
+          "password": "hashed_password_here"
+        },
+        {
+          "id": "3c8f01d5-122f-4de3-bf0a-d61a1ff731e7",
+          "name": "Jim",
+          "gender": "male",
+          "dateOfBirth": "1992-01-12",
+          "email": "jim@mail.com",
+          "password": "hashed_password_here"
+        }
+      ],
+      "createdAt": "2025-02-28T11:35:04+09:00"
     },
     {
-      "id": "365cc0bb-ba8f-41d3-bf82-83d041d38b82",
-      "workout": "a24d2618-01d1-4682-9288-8de1343e53c7",
-      "record": "358 reps"
-    },
-    {
-      "id": "62251cfe-fdb6-4fa6-9a2d-c21be93ac78d",
-      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
-      "record": "145 reps"
+      "id": "a12b56c7-d42a-4c7e-9ed4-bfe55bc274b2",
+      "members": [
+        {
+          "id": "3c8f01d5-122f-4de3-bf0a-d61a1ff731e7",
+          "name": "Jim",
+          "gender": "male",
+          "dateOfBirth": "1992-01-12",
+          "email": "jim@mail.com",
+          "password": "hashed_password_here"
+        },
+        {
+          "id": "b2e2c772-9751-44f4-954e-d227a60206d9",
+          "name": "Michael Davis",
+          "gender": "male",
+          "dateOfBirth": "1990-08-20",
+          "email": "michael@mail.com",
+          "password": "hashed_password_here"
+        }
+      ],
+      "createdAt": "2025-02-28T12:00:00+09:00"
     }
   ]
 }

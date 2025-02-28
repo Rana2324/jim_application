@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { v4 as uuid } from "uuid";
-import CustomError from "../utils/customError.js"; // Importing the CustomError class
+import CustomError from "../utils/customError.js";
 
 // Get database file path
 const dbPath = join(dirname(fileURLToPath(import.meta.url)), "db.json");
@@ -13,7 +13,7 @@ const dbUtils = {
   createId: () => uuid(),
 
   // Read database file
-  read: async () => {
+  read: async (dataType) => {
     try {
       const data = await fs.readFile(dbPath, "utf-8");
 
@@ -25,20 +25,15 @@ const dbUtils = {
 
       const parsedData = JSON.parse(data);
 
-      if (!Array.isArray(parsedData.workouts)) {
+      if (!Array.isArray(parsedData[dataType])) {
         throw new CustomError(
-          'Invalid database format: "workouts" must be an array',
+          `Invalid database format: "${dataType}" must be an array`,
           500
         );
       }
 
-      return parsedData.workouts;
+      return parsedData[dataType];
     } catch (error) {
-      if (error instanceof CustomError) {
-        throw error; // If it's already a CustomError, rethrow it
-      }
-
-      console.error("Error reading database:", error.message);
       throw new CustomError(
         "Failed to read database. Please try again later.",
         500
@@ -47,19 +42,16 @@ const dbUtils = {
   },
 
   // Save to database file
-  save: async (workouts) => {
+  save: async (dataType, data) => {
     try {
-      // if (!Array.isArray(workouts)) {
-      //     throw new CustomError('Invalid data: Workouts must be an array', 400);
-      // }
-
-      const data = { workouts };
-      await fs.writeFile(dbPath, JSON.stringify(data, null, 2));
+      const currentData = await dbUtils.read(dataType);
+      const newData = { ...currentData, [dataType]: data };
+      await fs.writeFile(dbPath, JSON.stringify(newData, null, 2));
 
       return true;
     } catch (error) {
       if (error instanceof CustomError) {
-        throw error; // If it's already a CustomError, rethrow it
+        throw error;
       }
 
       console.error("Error saving database:", error.message);

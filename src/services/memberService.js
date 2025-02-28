@@ -26,16 +26,25 @@ const memberService = {
   create: async (data) => {
     try {
       const workout = await memberDb.create(data);
-      return workout;
     } catch (error) {
-      throw new CustomError("Failed to create workout", error.status || 500);
+      throw new CustomError("Failed to create member", error.status || 500);
     }
   },
-  update: () => {
-    res.json("get all member");
+  update: async (memberId, data) => {
+    try {
+      return await memberDb.update(memberId, data);
+
+    } catch (error) {
+      throw new CustomError("Failed to update member", error.status || 500);
+    }
+
   },
-  delete: () => {
-    res.json("get all member");
+  delete: async (memberId) => {
+    try {
+      return await memberDb.delete(memberId);
+    } catch (error) {
+      throw new CustomError(`Failed to delete member with id ${memberId}`, error.status || 500);
+    }
   },
 };
 export default memberService;

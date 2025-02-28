@@ -1,75 +1,82 @@
 // import dbUtils from "./dbUtils";
+import dbUtils from "./dbUtils.js";
 import CustomError from "../utils/customError.js";
-import fs from "fs/promises";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
-// Get database file path
-const dbPath = join(dirname(fileURLToPath(import.meta.url)), "db.json");
+
+
 // member DB
 
 const memberDb = {
   getAll: async () => {
     try {
-      const members = await fs.readFile(dbPath, "utf-8");
-      if (!members) {
-        throw new CustomError("members not found", 404);
-      }
-      const memberData = JSON.parse(members);
-      return memberData.members;
+      return await dbUtils.read("members");
     } catch (error) {
-      throw {
-        status: error.status,
-        message: error.message,
-      };
+      throw new CustomError("Failed to retrieve members", error.status || 500);
     }
   },
   getOne: async (id) => {
     try {
-      const members = await fs.readFile(dbPath, "utf-8");
-      if (!members) {
-        throw new CustomError("members not found", 404);
-      }
 
-      const memberData = JSON.parse(members);
-      const member = memberData.members.find((member) => member.id === id);
+      const members = await dbUtils.read("members");
+      const member = members.find((member) => member.id === id);
 
       if (!member) {
-        throw new CustomError(`member with id ${id} not found`, 404);
+        throw new CustomError(`Member with id ${id} not found`, 404);
       }
-
       return member;
     } catch (error) {
-      throw {
-        status: error.status || 500,
-        message: error.message || "Member get failed",
-      };
+      throw new CustomError("Failed to retrieve member", error.status || 500);
     }
   },
 
   create: async (data) => {
     try {
-      const members = await fs.readFile(dbPath, "utf-8");
-      const memberData = members ? JSON.parse(members) : { members: [] };
-
-      memberData.members.push(data);
-
-      await fs.writeFile(dbPath, JSON.stringify(memberData, null, 2));
-
-      return data;
+      const members = await dbUtils.read("members");
+      const newMember = {
+        ...data,
+        id: dbUtils.createId(),
+        createdAt: dbUtils.timestamp()
+      };
+      members.push(newMember);
+      await dbUtils.save("members", members);
+      return newMember;
     } catch (error) {
-      throw new CustomError(
-        error.message || "Error creating member in DB",
-        500
-      );
+      throw new CustomError("Error creating member in DB", error.status || 500);
     }
   },
 
-  update: () => {
-    res.json("get all member");
+  update: async (memberId, data) => {
+    try {
+      const members = await dbUtils.read("members");
+      const index = members.findIndex((member) => member.id === memberId);
+      if (index === -1) {
+        throw new CustomError(`Member with id ${memberId} not found`, 404);
+      }
+      members[index] = {
+        ...members[index],
+        ...data,
+        updatedAt: dbUtils.timestamp()
+      };
+      await dbUtils.save("members", members);
+      return members[index];
+    } catch (error) {
+      throw new CustomError("Error updating member in DB", error.status || 500);
+    }
   },
-  delete: () => {
-    res.json("get all member");
+  delete: async (memberId) => {
+    try {
+      const members = await dbUtils.read("members");
+      const index = members.findIndex((member) => member.id === memberId);
+      if (index === -1) {
+        throw new CustomError(`Member with ID ${memberId} not found`, 404);
+      }
+      members.splice(index, 1);
+      await dbUtils.save("members", members);
+      return true;
+    } catch (error) {
+      throw new CustomError("Error deleting member from DB", 500);
+    }
   },
+
 };
 
 export default memberDb;

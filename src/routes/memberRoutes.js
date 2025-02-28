@@ -10,6 +10,6 @@ router.get("/", memberController.getAll);
 router.get("/:memberId", memberController.getOne);
 router.post("/", memberController.create);
 router.patch("/:memberId", memberController.update);
-router.delete("/", memberController.delete);
+router.delete("/:memberId", memberController.delete);
 
 export default router;

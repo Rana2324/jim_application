@@ -5,7 +5,7 @@ const memberController = {
   getAll: async (req, res, next) => {
     try {
       const members = await memberService.getAll();
-      res.json({ ok: true, data: members });
+      res.json({ ok: true, message: "Members fetched successfully", data: members });
     } catch (error) {
       next(error);
     }
@@ -19,7 +19,7 @@ const memberController = {
           .json({ ok: false, message: "Invalid member ID" });
       }
       const member = await memberService.getOne(memberId);
-      res.json({ ok: true, data: member });
+      res.json({ ok: true, message: "Member fetched successfully", data: member });
     } catch (error) {
       console.error("Error in getOne:", error);
       next(error);
@@ -29,16 +29,26 @@ const memberController = {
   create: async (req, res, next) => {
     try {
       const members = await memberService.create(req.body);
-      res.status(201).json({ ok: true, data: members });
+      res.status(201).json({ ok: true, message: "Member created successfully", data: members });
     } catch (error) {
       next(error);
     }
   },
-  update: (req, res) => {
-    res.json("update member");
+  update: async (req, res) => {
+    try {
+      const member = await memberService.update(req.params.memberId, req.body);
+      res.json({ ok: true, data: member })
+    } catch (error) {
+      next(error);
+    }
   },
-  delete: (req, res) => {
-    res.json("delete member");
+  delete: async (req, res, next) => {
+    try {
+      await memberService.delete(req.params.memberId);
+      res.json({ ok: true, message: "Member deleted successfully" });
+    } catch (error) {
+      next(error);
+    }
   },
 };
 
