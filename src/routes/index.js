@@ -6,8 +6,8 @@ import memberRoutes from "./memberRoutes.js";
 const router = Router();
 
 // Connect workout routes
-router.use("/workout", workoutRoutes);
+router.use("/workouts", workoutRoutes);
 //Connect member routes
-router.use("/member", memberRoutes);
+router.use("/members", memberRoutes);
 
 export default router;

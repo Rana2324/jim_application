@@ -1,4 +1,4 @@
-import memberDb from "../database/memberDb.js";
+import * as memberDb from '../database/memberDb.js';
 import CustomError from "../utils/customError.js";
 
 //member Service
@@ -6,45 +6,55 @@ import CustomError from "../utils/customError.js";
 const memberService = {
   getAll: async () => {
     try {
-      const members = await memberDb.getAll();
-      return members;
+      return await memberDb.findAll();
     } catch (error) {
-      throw new CustomError("Failed to retrieve members", error.status || 500);
+      throw new CustomError('Failed to retrieve members', error.status || 500);
     }
   },
-  getOne: async (memberId) => {
+
+  getOne: async (id) => {
     try {
-      const member = await memberDb.getOne(memberId);
+      const member = await memberDb.findById(id);
+      if (!member) {
+        throw new CustomError('Member not found', 404);
+      }
       return member;
     } catch (error) {
-      throw new CustomError(
-        `Failed to retrieve member with id ${memberId}`,
-        error.status || 500
-      );
+      throw new CustomError(`Failed to retrieve member with id ${id}`, error.status || 500);
     }
   },
-  create: async (data) => {
-    try {
-      const workout = await memberDb.create(data);
-    } catch (error) {
-      throw new CustomError("Failed to create member", error.status || 500);
-    }
-  },
-  update: async (memberId, data) => {
-    try {
-      return await memberDb.update(memberId, data);
 
-    } catch (error) {
-      throw new CustomError("Failed to update member", error.status || 500);
-    }
-
-  },
-  delete: async (memberId) => {
+  create: async (memberData) => {
     try {
-      return await memberDb.delete(memberId);
+      return await memberDb.create(memberData);
     } catch (error) {
-      throw new CustomError(`Failed to delete member with id ${memberId}`, error.status || 500);
+      throw new CustomError('Failed to create member', error.status || 500);
     }
   },
+
+  update: async (id, memberData) => {
+    try {
+      const member = await memberDb.update(id, memberData);
+      if (!member) {
+        throw new CustomError('Member not found', 404);
+      }
+      return member;
+    } catch (error) {
+      throw new CustomError(`Failed to update member with id ${id}`, error.status || 500);
+    }
+  },
+
+  delete: async (id) => {
+    try {
+      const member = await memberDb.remove(id);
+      if (!member) {
+        throw new CustomError('Member not found', 404);
+      }
+      return { message: 'Member deleted successfully' };
+    } catch (error) {
+      throw new CustomError(`Failed to delete member with id ${id}`, error.status || 500);
+    }
+  }
 };
+
 export default memberService;

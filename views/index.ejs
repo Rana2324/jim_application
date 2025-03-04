@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<main>
+    <h2>Workouts</h2>
+    <ul>
+        <% workouts.forEach(workout => { %>
+            <li>
+                <strong><%= workout.name %></strong>
+                <p><%= workout.description %></p>
+            </li>
+        <% }) %>
+    </ul>
+
+    <h2>Members</h2>
+    <ul>
+        <% members.forEach(member => { %>
+            <li>
+                <strong><%= member.name %></strong>
+                <p>Email: <%= member.email %></p>
+            </li>
+        <% }) %>
+    </ul>
+</main>
+
+<%- include('partials/footer') %>

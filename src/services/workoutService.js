@@ -1,48 +1,58 @@
-import workoutDb from '../database/workoutDb.js';
-import CustomError from '../utils/customError.js';
+// import * as workoutDb from '../database/workoutDb.js';
+import CustomError from "../utils/customError.js";
 
-
-const WorkoutService = {
+const workoutService = {
     getAll: async () => {
         try {
-            return await workoutDb.getAll();
+            return await workoutDb.findAll();
         } catch (error) {
             throw new CustomError('Failed to retrieve workouts', error.status || 500);
         }
     },
 
-    getOne: async (workoutId) => {
+    getOne: async (id) => {
         try {
-            return await workoutDb.getOne(workoutId);
+            const workout = await workoutDb.findById(id);
+            if (!workout) {
+                throw new CustomError('Workout not found', 404);
+            }
+            return workout;
         } catch (error) {
-            throw new CustomError(`Failed to retrieve workout with id ${workoutId}`, error.status || 500);
+            throw new CustomError(`Failed to retrieve workout with id ${id}`, error.status || 500);
         }
     },
 
-    create: async (data) => {
+    create: async (workoutData) => {
         try {
-            return await workoutDb.create(data);
+            return await workoutDb.create(workoutData);
         } catch (error) {
             throw new CustomError('Failed to create workout', error.status || 500);
         }
     },
 
-    update: async (workoutId, data) => {
+    update: async (id, workoutData) => {
         try {
-            return await workoutDb.update(workoutId, data);
+            const workout = await workoutDb.update(id, workoutData);
+            if (!workout) {
+                throw new CustomError('Workout not found', 404);
+            }
+            return workout;
         } catch (error) {
-            throw new CustomError(`Failed to update workout with id ${workoutId}`, error.status || 500);
+            throw new CustomError(`Failed to update workout with id ${id}`, error.status || 500);
         }
     },
 
-    delete: async (workoutId) => {
+    delete: async (id) => {
         try {
-            await workoutDb.delete(workoutId);
-            return { message: 'Workout deleted' };
+            const workout = await workoutDb.remove(id);
+            if (!workout) {
+                throw new CustomError('Workout not found', 404);
+            }
+            return { message: 'Workout deleted successfully' };
         } catch (error) {
-            throw new CustomError(`Failed to delete workout with id ${workoutId}`, error.status || 500);
+            throw new CustomError(`Failed to delete workout with id ${id}`, error.status || 500);
         }
     }
 };
 
-export default WorkoutService;
+export default workoutService;

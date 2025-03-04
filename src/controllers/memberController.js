@@ -10,6 +10,7 @@ const memberController = {
       next(error);
     }
   },
+
   getOne: async (req, res, next) => {
     try {
       const member = await memberService.getOne(req.params.memberId);
@@ -22,20 +23,22 @@ const memberController = {
 
   create: async (req, res, next) => {
     try {
-      const members = await memberService.create(req.body);
-      res.status(201).json({ ok: true, message: "Member created successfully", data: members });
+      const newMember = await memberService.create(req.body);
+      res.status(201).json({ ok: true, message: "Member created successfully", data: newMember });
     } catch (error) {
       next(error);
     }
   },
-  update: async (req, res) => {
+
+  update: async (req, res, next) => {
     try {
-      const member = await memberService.update(req.params.memberId, req.body);
-      res.json({ ok: true, data: member })
+      const updatedMember = await memberService.update(req.params.memberId, req.body);
+      res.json({ ok: true, message: "Member updated successfully", data: updatedMember });
     } catch (error) {
       next(error);
     }
   },
+
   delete: async (req, res, next) => {
     try {
       await memberService.delete(req.params.memberId);
