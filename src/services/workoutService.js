@@ -1,10 +1,14 @@
-// import * as workoutDb from '../database/workoutDb.js';
+import Workout from '../models/workoutModel.js';
 import CustomError from "../utils/customError.js";
 
 const workoutService = {
     getAll: async () => {
         try {
-            return await workoutDb.findAll();
+            const workouts = await Workout.find();
+            if (!workouts || workouts.length === 0) {
+                throw new CustomError('No workouts found', 404);
+            }
+            return workouts;
         } catch (error) {
             throw new CustomError('Failed to retrieve workouts', error.status || 500);
         }
@@ -12,7 +16,7 @@ const workoutService = {
 
     getOne: async (id) => {
         try {
-            const workout = await workoutDb.findById(id);
+            const workout = await Workout.findById(id);
             if (!workout) {
                 throw new CustomError('Workout not found', 404);
             }
@@ -24,7 +28,8 @@ const workoutService = {
 
     create: async (workoutData) => {
         try {
-            return await workoutDb.create(workoutData);
+            const workout = new Workout(workoutData);
+            return await workout.save();
         } catch (error) {
             throw new CustomError('Failed to create workout', error.status || 500);
         }
@@ -32,7 +37,7 @@ const workoutService = {
 
     update: async (id, workoutData) => {
         try {
-            const workout = await workoutDb.update(id, workoutData);
+            const workout = await Workout.findByIdAndUpdate(id, workoutData, { new: true });
             if (!workout) {
                 throw new CustomError('Workout not found', 404);
             }
@@ -44,7 +49,7 @@ const workoutService = {
 
     delete: async (id) => {
         try {
-            const workout = await workoutDb.remove(id);
+            const workout = await Workout.findByIdAndDelete(id);
             if (!workout) {
                 throw new CustomError('Workout not found', 404);
             }

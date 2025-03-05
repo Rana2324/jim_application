@@ -1,5 +1,6 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
+// Member Schema
 const memberSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -8,20 +9,18 @@ const memberSchema = new mongoose.Schema({
     gender: {
         type: String,
         required: true,
-        enum: ['male', 'female']
-    },
-    dateOfBirth: {
-        type: Date,
-        required: true
+        enum: ["male", "female"]
     },
     email: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
+        match: [/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/, 'Pleasewrite valid email']
     },
     password: {
         type: String,
-        required: true
+        required: true,
+        minlength: 4
     },
     address: {
         type: String,
@@ -29,11 +28,12 @@ const memberSchema = new mongoose.Schema({
     },
     phone: {
         type: String,
-        required: true
+        required: true,
+        match: [/^\+?[1-9]\d{1,14}$/, 'Please write valid phone number']
     }
 }, {
     timestamps: true
 });
 
-const Member = mongoose.model('Member', memberSchema);
+const Member = mongoose.model("Member", memberSchema);
 export default Member;

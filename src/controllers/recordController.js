@@ -1,19 +1,19 @@
-import memberService from "../services/memberService.js";
+import recordService from "../services/recordService.js";
 
 // member controller
-const memberController = {
+const recordController = {
     getAll: async (req, res, next) => {
         try {
-            const members = await memberService.getAll();
-            if (!members || members.length === 0) {
+            const records = await recordService.getAll();
+            if (!records || records.length === 0) {
                 return res.status(404).json({
                     ok: false,
-                    message: "No members found",
+                    message: "No records found",
                 });
             }
             res.json({
                 ok: true,
-                message: "Members fetched successfully",
+                message: "Records fetched successfully",
                 data: members,
             });
         } catch (error) {
@@ -28,25 +28,25 @@ const memberController = {
 
     getOne: async (req, res, next) => {
         try {
-            const { memberId } = req.params;
-            if (!memberId) {
+            const { recordId } = req.params;
+            if (!recordId) {
                 return res.status(400).json({
                     ok: false,
-                    message: "Member ID is required",
+                    message: "Record ID is required",
                 });
             }
 
-            const member = await memberService.getOne(memberId);
-            if (!member) {
+            const record = await recordService.getOne(recordId);
+            if (!record) {
                 return res.status(404).json({
                     ok: false,
-                    message: "Member not found",
+                    message: "Record not found",
                 });
             }
 
             res.json({
                 ok: true,
-                message: "Member fetched successfully",
+                message: "Record fetched successfully",
                 data: member,
             });
         } catch (error) {
@@ -68,11 +68,11 @@ const memberController = {
             });
           }
     
-          const newMember = await memberService.create(req.body);
+          const newRecord = await recordService.create(req.body);
           res.status(201).json({
             ok: true,
-            message: "Member created successfully",
-            data: newMember,
+            message: "Record created successfully",
+            data: newRecord,
           });
         } catch (error) {
           console.error("Error in create:", error);
@@ -85,25 +85,25 @@ const memberController = {
       },
     update: async (req, res, next) => {
         try {
-            const { memberId } = req.params;
-            if (!memberId) {
+            const { recordId } = req.params;
+            if (!recordId) {
                 return res.status(400).json({
                     ok: false,
-                    message: "Member ID is required",
+                    message: "Record ID is required",
                 });
             }
 
-            const updatedMember = await memberService.update(memberId, req.body);
-            if (!updatedMember) {
+            const updatedRecord = await recordService.update(recordId, req.body);
+            if (!updatedRecord) {
                 return res.status(404).json({
                     ok: false,
-                    message: "Member not found",
+                    message: "Record not found",
                 });
             }
 
             res.json({
                 ok: true,
-                message: "Member updated successfully",
+                message: "Record updated successfully",
                 data: updatedMember,
             });
         } catch (error) {
@@ -118,25 +118,25 @@ const memberController = {
 
     delete: async (req, res, next) => {
         try {
-            const { memberId } = req.params;
-            if (!memberId) {
+            const { recordId } = req.params;
+            if (!recordId) {
                 return res.status(400).json({
                     ok: false,
-                    message: "Member ID is required",
+                    message: "Record ID is required",
                 });
             }
 
-            const deletedMember = await memberService.delete(memberId);
-            if (!deletedMember) {
+            const deletedRecord = await recordService.delete(recordId);
+            if (!deletedRecord) {
                 return res.status(404).json({
                     ok: false,
-                    message: "Member not found",
+                    message: "Record not found",
                 });
             }
 
             res.json({
                 ok: true,
-                message: "Member deleted successfully",
+                message: "Record deleted successfully",
             });
         } catch (error) {
             console.error("Error in delete:", error);
@@ -149,4 +149,4 @@ const memberController = {
     },
 };
 
-export default memberController;
+export default recordController;
