@@ -1,0 +1,110 @@
+<%- include('partials/header') %>
+
+<main>
+    <h1>Training Records</h1>
+    <div id="error-message" class="message"></div>
+    
+    <section class="form-section">
+        <h2>Add Training Record</h2>
+        <form id="record-form">
+            <div class="form-group">
+                <label for="memberId">Member:</label>
+                <select id="memberId" name="memberId" required>
+                    <option value="">Select Member</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="workoutId">Workout:</label>
+                <select id="workoutId" name="workoutId" required>
+                    <option value="">Select Workout</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="datetime-local" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" name="duration" required min="1">
+            </div>
+            <div class="form-group">
+                <label for="intensity">Intensity (1-10):</label>
+                <input type="number" id="intensity" name="intensity" required min="1" max="10">
+            </div>
+            <div class="form-group">
+                <label for="caloriesBurned">Calories Burned:</label>
+                <input type="number" id="caloriesBurned" name="caloriesBurned" min="0">
+            </div>
+            <div class="form-group">
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Add Record</button>
+        </form>
+    </section>
+
+    <section class="list-section">
+        <h2>Training Records</h2>
+        <div id="records-list" class="cards-grid">
+            <!-- Records will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Edit Record Modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Training Record</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id">
+                
+                <div class="form-group">
+                    <label for="edit-memberId">Member:</label>
+                    <select id="edit-memberId" name="memberId" required>
+                        <option value="">Select Member</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-workoutId">Workout:</label>
+                    <select id="edit-workoutId" name="workoutId" required>
+                        <option value="">Select Workout</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-date">Date:</label>
+                    <input type="datetime-local" id="edit-date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-duration">Duration (minutes):</label>
+                    <input type="number" id="edit-duration" name="duration" required min="1">
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-intensity">Intensity (1-10):</label>
+                    <input type="number" id="edit-intensity" name="intensity" required min="1" max="10">
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-caloriesBurned">Calories Burned:</label>
+                    <input type="number" id="edit-caloriesBurned" name="caloriesBurned" min="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-notes">Notes:</label>
+                    <textarea id="edit-notes" name="notes" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Update Record</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- Link to external CSS and JS files -->
+<link rel="stylesheet" href="/css/records.css">
+<script src="/js/records.js"></script>
+
+<%- include('partials/footer') %>

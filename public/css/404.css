@@ -1,0 +1,36 @@
+/* 404.css */
+/* Styles specific to the 404 error page */
+.error-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light-bg);
+}
+
+.error-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.error-content h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.error-content h2 {
+    color: #666;
+}
+
+.error-content a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.error-content a:hover {
+    background-color: var(--error-color);
+}

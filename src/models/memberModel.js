@@ -22,7 +22,7 @@ const memberSchema = new mongoose.Schema({
         required: true,
         minlength: 4
     },
-    address: {
+    membershipType: {
         type: String,
         required: true
     },

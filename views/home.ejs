@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+
+<main class="home-page">
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to JIM</h1>
+            <p>Your Ultimate Gym Management Solution</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Member Management</h3>
+                <p>Efficiently manage your gym members</p>
+                <a href="/members" class="btn">Manage Members</a>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Workout Tracking</h3>
+                <p>Track workout programs and progress</p>
+                <a href="/workouts" class="btn">View Workouts</a>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Performance Records</h3>
+                <p>Monitor member performance</p>
+                <a href="/records" class="btn">Check Records</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<link rel="stylesheet" href="/css/home.css">
+<link rel="stylesheet" href="/css/responsive.css">
+
+
+
+<%- include('partials/footer') %>

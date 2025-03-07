@@ -1,41 +1,157 @@
 <%- include('partials/header') %>
 
+
+
 <main>
-    <div id="error-message" class="error-message" style="display: none;"></div>
-    
+    <h1>Member Management</h1>
+
     <section class="form-section">
         <h2>Add New Member</h2>
-        <form id="member-form">
+        <form id="member-form" method="POST" action="/api/v1/members">
             <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required 
+                    pattern="[A-Za-z\s]+" 
+                    title="Name should only contain letters and spaces">
             </div>
+
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
+
             <div class="form-group">
                 <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
+                <div class="phone-input-group">
+                    <select id="country-code" class="country-code-select">
+                        <option value="+1">🇺🇸 +1 (USA/Canada)</option>
+                        <option value="+81">🇯🇵 +81 (Japan)</option>
+                        <option value="+880">🇧🇩 +880 (Bangladesh)</option>
+                        <option value="+91">🇮🇳 +91 (India)</option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" required 
+                        pattern="\+\d{1,3}\s\(\d{1,4}\)\s\d{3,4}[-\s]\d{4}"
+                        placeholder="(XXX) XXX-XXXX"
+                        title="Please enter a valid phone number with country code">
+                </div>
             </div>
+
             <div class="form-group">
                 <label for="membershipType">Membership Type:</label>
                 <select id="membershipType" name="membershipType" required>
                     <option value="basic">Basic</option>
                     <option value="premium">Premium</option>
-                    <option value="vip">VIP</option>
+                    <option value="platinum">Platinum</option>
                 </select>
             </div>
-            <button type="submit">Add Member</button>
+
+            <div class="form-group">
+                <label for="joinDate">Join Date:</label>
+                <input type="date" id="joinDate" name="joinDate" required>
+            </div>
+
+            <div class="form-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="active" name="active" checked>
+                    Active Member
+                </label>
+            </div>
+
+            <button type="submit" class="btn-primary">Add Member</button>
         </form>
     </section>
 
-    <section class="list-section">
+    <section class="members-section">
         <h2>Members List</h2>
-        <div id="members-list" class="cards-grid">
-            <!-- Members will be loaded here by JavaScript -->
+        <div class="cards-grid">
+            <div class="member-card">
+                <span class="member-status active">Active</span>
+                <h3>Member Name</h3>
+                <p><i class="fas fa-envelope"></i> member@example.com</p>
+                <p><i class="fas fa-phone"></i> 123-456-7890</p>
+                <p><i class="fas fa-star"></i> Gold</p>
+                <p><i class="fas fa-calendar"></i> Joined: 01/01/2024</p>
+                <div class="card-actions">
+                    <button class="btn-edit">Edit</button>
+                    <button class="btn-toggle-status">Deactivate</button>
+                    <button class="btn-delete">Delete</button>
+                </div>
+            </div>
+            <div class="no-members">
+                <p>No members found. Add your first member using the form above!</p>
+            </div>
         </div>
     </section>
-</main>
+    
+
+    <!-- Edit Member Modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Member</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id" name="id">
+                
+                <div class="form-group">
+                    <label for="edit-name">Full Name:</label>
+                    <input type="text" id="edit-name" name="name" required 
+                        pattern="[A-Za-z\s]+" 
+                        title="Name should only contain letters and spaces">
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-email">Email:</label>
+                    <input type="email" id="edit-email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-phone">Phone:</label>
+                    <div class="phone-input-group">
+                        <select id="edit-country-code" class="country-code-select">
+                            <option value="+1">🇺🇸 +1 (USA/Canada)</option>
+                            <option value="+81">🇯🇵 +81 (Japan)</option>
+                            <option value="+880">🇧🇩 +880 (Bangladesh)</option>
+                            <option value="+91">🇮🇳 +91 (India)</option>
+                        </select>
+                        <input type="tel" id="edit-phone" name="phone" required 
+                            pattern="\+\d{1,3}\s\(\d{1,4}\)\s\d{3,4}[-\s]\d{4}"
+                            placeholder="(XXX) XXX-XXXX"
+                            title="Please enter a valid phone number with country code">
+                    </div>
+                    <small class="phone-format-hint">
+                        Examples:<br>
+                        🇺🇸 USA/Canada: +1 (123) 456-7890<br>
+                        🇯🇵 Japan: +81 (90) 1234-5678<br>
+                        🇧🇩 Bangladesh: +880 (1711) 123-4567<br>
+                        🇮🇳 India: +91 (999) 123-4567
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="edit-membershipType">Membership Type:</label>
+                    <select id="edit-membershipType" name="membershipType" required>
+                        <option value="basic">Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="platinum">Platinum</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="edit-active" name="active">
+                        Active Member
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary">Update Member</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to external CSS and JS files -->
+    <link rel="stylesheet" href="/css/members.css">
+    <link rel="stylesheet" href="/css/alerts.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <script src="/js/members.js"></script>
 
 <%- include('partials/footer') %>
