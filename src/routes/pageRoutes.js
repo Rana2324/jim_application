@@ -1,5 +1,5 @@
 import { Router } from "express";
-import memberController from "../controllers/memberController.js";
+
 
 const router = Router();
 
