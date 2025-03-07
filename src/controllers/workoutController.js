@@ -16,7 +16,6 @@ const WorkoutController = {
                 data: workouts,
             });
         } catch (error) {
-            console.error("Error in getAll:", error);
             next(error);
         }
     },
@@ -43,7 +42,6 @@ const WorkoutController = {
                 data: workout,
             });
         } catch (error) {
-            console.error("Error in getOne:", error);
             next(error);
         }
     },
@@ -63,7 +61,6 @@ const WorkoutController = {
                 data: newWorkout,
             });
         } catch (error) {
-            console.error("Error in create:", error);
             next(error);
         }
     },
@@ -90,7 +87,6 @@ const WorkoutController = {
                 data: updatedWorkout,
             });
         } catch (error) {
-            console.error("Error in update:", error);
             next(error);
         }
     },
@@ -116,7 +112,6 @@ const WorkoutController = {
                 message: "Workout deleted successfully",
             });
         } catch (error) {
-            console.error("Error in delete:", error);
             next(error);
         }
     },
