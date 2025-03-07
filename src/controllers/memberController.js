@@ -17,12 +17,8 @@ const memberController = {
                 data: members,
             });
         } catch (error) {
-            console.error("Error in getAll:", error);
-            res.status(500).json({
-                ok: false,
-                message: "An unexpected error occurred",
-                error: error.message,
-            });
+            next(error);
+            
         }
     },
 
@@ -50,12 +46,8 @@ const memberController = {
                 data: member,
             });
         } catch (error) {
-            console.error("Error in getOne:", error);
-            res.status(500).json({
-                ok: false,
-                message: "An unexpected error occurred",
-                error: error.message,
-            });
+            next(error);
+            
         }
     },
 
@@ -75,12 +67,7 @@ const memberController = {
             data: newMember,
           });
         } catch (error) {
-          console.error("Error in create:", error);
-          res.status(500).json({
-            ok: false,
-            message: "An unexpected error occurred",
-            error: error.message,
-          });
+          next(error);
         }
       },
     update: async (req, res, next) => {
@@ -107,12 +94,7 @@ const memberController = {
                 data: updatedMember,
             });
         } catch (error) {
-            console.error("Error in update:", error);
-            res.status(500).json({
-                ok: false,
-                message: "An unexpected error occurred",
-                error: error.message,
-            });
+            next(error);
         }
     },
 
@@ -139,12 +121,7 @@ const memberController = {
                 message: "Member deleted successfully",
             });
         } catch (error) {
-            console.error("Error in delete:", error);
-            res.status(500).json({
-                ok: false,
-                message: "An unexpected error occurred",
-                error: error.message,
-            });
+            next(error);
         }
     },
 };
