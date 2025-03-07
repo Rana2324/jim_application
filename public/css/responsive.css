@@ -142,6 +142,7 @@
     }
 }
 
+/* Responsive home.css */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -165,5 +166,21 @@
 
     .feature-card p {
         font-size: 0.9rem;
+    }
+}
+
+
+/* Responsive about.css */
+@media (max-width: 768px) {
+    .about-page {
+        padding: 1rem;
+    }
+
+    .about-content {
+        padding: 1rem;
+    }
+
+    .cta-actions {
+        flex-direction: column;
     }
 }

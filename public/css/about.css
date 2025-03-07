@@ -135,17 +135,3 @@
     background: #495057;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .about-page {
-        padding: 1rem;
-    }
-
-    .about-content {
-        padding: 1rem;
-    }
-
-    .cta-actions {
-        flex-direction: column;
-    }
-}
