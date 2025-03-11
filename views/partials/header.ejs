@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym Management System</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Management System</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/base.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="/">GYM MANAGER</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/members">Members</a></li>
-                <li><a href="/workouts">Workouts</a></li>
-                <li><a href="/records">Records</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar bg-gray-800 text-white px-4 py-4">
+      <div class="flex items-center justify-between max-w-screen-xl mx-auto">
+        <!-- Logo -->
+        <div class="logo text-xl font-bold">
+          <a href="/" class="text-white hover:text-gray-400">GYM MANAGER</a>
+        </div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links flex space-x-6">
+          <li><a href="/" class="hover:text-gray-400">Home</a></li>
+          <li><a href="/members" class="hover:text-gray-400">Members</a></li>
+          <li><a href="/workouts" class="hover:text-gray-400">Workouts</a></li>
+          <li><a href="/records" class="hover:text-gray-400">Records</a></li>
+          <li><a href="/about" class="hover:text-gray-400">About</a></li>
+          <li><a href="/contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Toggle (Hamburger) -->
+        <div class="lg:hidden">
+          <button id="hamburger" class="text-white focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Links -->
+      <div id="mobile-menu" class="lg:hidden hidden bg-gray-800 text-white px-4 py-4 absolute w-full top-16 left-0">
+        <ul class="space-y-4">
+          <li><a href="/" class="block py-2">Home</a></li>
+          <li><a href="/members" class="block py-2">Members</a></li>
+          <li><a href="/workouts" class="block py-2">Workouts</a></li>
+          <li><a href="/records" class="block py-2">Records</a></li>
+          <li><a href="/about" class="block py-2">About</a></li>
+          <li><a href="/contact" class="block py-2">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>

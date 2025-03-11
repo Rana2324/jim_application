@@ -1,111 +1,111 @@
 <%- include('partials/header') %>
 
-<main>
-    <h1>Training Records</h1>
-    <div id="error-message" class="message"></div>
-    
-    <section class="form-section">
-        <h2>Add Training Record</h2>
-        <form id="record-form">
-            <div class="form-group">
-                <label for="memberId">Member:</label>
-                <select id="memberId" name="memberId" required>
-                    <option value="">Select Member</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="workoutId">Workout:</label>
-                <select id="workoutId" name="workoutId" required>
-                    <option value="">Select Workout</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="date">Date:</label>
-                <input type="datetime-local" id="date" name="date" required>
-            </div>
-            <div class="form-group">
-                <label for="duration">Duration (minutes):</label>
-                <input type="number" id="duration" name="duration" required min="1">
-            </div>
-            <div class="form-group">
-                <label for="intensity">Intensity (1-10):</label>
-                <input type="number" id="intensity" name="intensity" required min="1" max="10">
-            </div>
-            <div class="form-group">
-                <label for="caloriesBurned">Calories Burned:</label>
-                <input type="number" id="caloriesBurned" name="caloriesBurned" min="0">
-            </div>
-            <div class="form-group">
-                <label for="notes">Notes:</label>
-                <textarea id="notes" name="notes" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn-primary">Add Record</button>
-        </form>
-    </section>
+<main class="max-w-7xl mx-auto p-6">
+  <h1 class="text-3xl font-bold mb-6">Training Records</h1>
+  <div id="error-message" class="message mb-4 text-red-600"></div>
 
-    <section class="list-section">
-        <h2>Training Records</h2>
-        <div id="records-list" class="cards-grid">
-            <!-- Records will be loaded here by JavaScript -->
-        </div>
-    </section>
+  <section class="form-section mb-8">
+    <h2 class="text-2xl font-semibold mb-4">Add Training Record</h2>
+    <form id="record-form" class="space-y-6">
+      <div class="form-group">
+        <label for="memberId" class="block text-lg">Member:</label>
+        <select id="memberId" name="memberId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">Select Member</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="workoutId" class="block text-lg">Workout:</label>
+        <select id="workoutId" name="workoutId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">Select Workout</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date" class="block text-lg">Date:</label>
+        <input type="datetime-local" id="date" name="date" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="form-group">
+        <label for="duration" class="block text-lg">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" required min="1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="form-group">
+        <label for="intensity" class="block text-lg">Intensity (1-10):</label>
+        <input type="number" id="intensity" name="intensity" required min="1" max="10" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="form-group">
+        <label for="caloriesBurned" class="block text-lg">Calories Burned:</label>
+        <input type="number" id="caloriesBurned" name="caloriesBurned" min="0" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="form-group">
+        <label for="notes" class="block text-lg">Notes:</label>
+        <textarea id="notes" name="notes" rows="3" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      </div>
+      <button type="submit" class="btn-primary bg-blue-500 text-white py-2 px-6 rounded-md shadow-lg hover:bg-blue-600 transition duration-200">Add Record</button>
+    </form>
+  </section>
 
-    <!-- Edit Record Modal -->
-    <div id="edit-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Edit Training Record</h2>
-            <form id="edit-form">
-                <input type="hidden" id="edit-id">
-                
-                <div class="form-group">
-                    <label for="edit-memberId">Member:</label>
-                    <select id="edit-memberId" name="memberId" required>
-                        <option value="">Select Member</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-workoutId">Workout:</label>
-                    <select id="edit-workoutId" name="workoutId" required>
-                        <option value="">Select Workout</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-date">Date:</label>
-                    <input type="datetime-local" id="edit-date" name="date" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-duration">Duration (minutes):</label>
-                    <input type="number" id="edit-duration" name="duration" required min="1">
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-intensity">Intensity (1-10):</label>
-                    <input type="number" id="edit-intensity" name="intensity" required min="1" max="10">
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-caloriesBurned">Calories Burned:</label>
-                    <input type="number" id="edit-caloriesBurned" name="caloriesBurned" min="0">
-                </div>
-
-                <div class="form-group">
-                    <label for="edit-notes">Notes:</label>
-                    <textarea id="edit-notes" name="notes" rows="3"></textarea>
-                </div>
-
-                <button type="submit" class="btn-primary">Update Record</button>
-            </form>
-        </div>
+  <section class="list-section mb-8">
+    <h2 class="text-2xl font-semibold mb-4">Training Records</h2>
+    <div id="records-list" class="cards-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Records will be loaded here by JavaScript -->
     </div>
+  </section>
+
+  <!-- Edit Record Modal -->
+  <div id="edit-modal" class="modal fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-50 hidden">
+    <div class="modal-content bg-white p-6 rounded-lg shadow-lg w-full max-w-lg">
+      <span class="close absolute top-2 right-2 cursor-pointer text-gray-600 text-2xl">&times;</span>
+      <h2 class="text-2xl font-semibold mb-4">Edit Training Record</h2>
+      <form id="edit-form" class="space-y-6">
+        <input type="hidden" id="edit-id">
+
+        <div class="form-group">
+          <label for="edit-memberId" class="block text-lg">Member:</label>
+          <select id="edit-memberId" name="memberId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="">Select Member</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="edit-workoutId" class="block text-lg">Workout:</label>
+          <select id="edit-workoutId" name="workoutId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="">Select Workout</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="edit-date" class="block text-lg">Date:</label>
+          <input type="datetime-local" id="edit-date" name="date" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <div class="form-group">
+          <label for="edit-duration" class="block text-lg">Duration (minutes):</label>
+          <input type="number" id="edit-duration" name="duration" required min="1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <div class="form-group">
+          <label for="edit-intensity" class="block text-lg">Intensity (1-10):</label>
+          <input type="number" id="edit-intensity" name="intensity" required min="1" max="10" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <div class="form-group">
+          <label for="edit-caloriesBurned" class="block text-lg">Calories Burned:</label>
+          <input type="number" id="edit-caloriesBurned" name="caloriesBurned" min="0" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <div class="form-group">
+          <label for="edit-notes" class="block text-lg">Notes:</label>
+          <textarea id="edit-notes" name="notes" rows="3" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary bg-blue-500 text-white py-2 px-6 rounded-md shadow-lg hover:bg-blue-600 transition duration-200">Update Record</button>
+      </form>
+    </div>
+  </div>
 </main>
 
 <!-- Link to external CSS and JS files -->
-<link rel="stylesheet" href="/css/records.css">
+<!-- <link rel="stylesheet" href="/css/records.css">
 <link rel="stylesheet" href="/css/responsive.css">
-<script src="/js/records.js"></script>
+<script src="/js/records.js"></script> -->
 
 <%- include('partials/footer') %>

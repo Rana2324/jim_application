@@ -1,66 +1,76 @@
 <%- include('partials/header') %>
 
-<main class="contact-page">
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Contact Us</h1>
-            <p>Get in touch with our team</p>
+<main class="contact-page bg-gray-100">
+
+  <!-- Hero Section -->
+  <section class="hero bg-blue-600 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-extrabold">Contact Us</h1>
+      <p class="mt-4 text-xl">Get in touch with our team</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="contact-content py-16">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+
+      <!-- Contact Form Section -->
+      <div class="form-section bg-white p-8 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-6">Send us a Message</h2>
+        <form id="contactForm" class="contact-form space-y-6">
+          <div class="form-group">
+            <label for="name" class="block text-gray-700">Name</label>
+            <input type="text" id="name" name="name" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="block text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="block text-gray-700">Subject</label>
+            <select id="subject" name="subject" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="">Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="block text-gray-700">Message</label>
+            <textarea id="message" name="message" rows="5" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info Section -->
+      <div class="contact-info bg-white p-8 rounded-lg shadow-lg space-y-8">
+        <div class="info-card">
+          <h3 class="text-xl font-semibold text-gray-800">Office Location</h3>
+          <p class="text-gray-700">123 Gym Street</p>
+          <p class="text-gray-700">Fitness City, FC 12345</p>
         </div>
-    </section>
 
-    <section class="contact-content">
-        <div class="form-section">
-            <h2>Send us a Message</h2>
-            <form id="contactForm" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <select id="subject" name="subject" required>
-                        <option value="">Select a subject</option>
-                        <option value="general">General Inquiry</option>
-                        <option value="support">Technical Support</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+        <div class="info-card">
+          <h3 class="text-xl font-semibold text-gray-800">Contact Information</h3>
+          <p class="text-gray-700">Email: <a href="mailto:info@gymmanager.com" class="text-blue-600">info@gymmanager.com</a></p>
+          <p class="text-gray-700">Phone: (123) 456-7890</p>
+          <p class="text-gray-700">Hours: Mon-Fri 9:00 AM - 6:00 PM</p>
         </div>
+      </div>
 
-        <div class="contact-info">
-            <div class="info-card">
-                <h3>Office Location</h3>
-                <p>123 Gym Street</p>
-                <p>Fitness City, FC 12345</p>
-            </div>
+    </div>
+  </section>
 
-            <div class="info-card">
-                <h3>Contact Information</h3>
-                <p>Email: info@gymmanager.com</p>
-                <p>Phone: (123) 456-7890</p>
-                <p>Hours: Mon-Fri 9:00 AM - 6:00 PM</p>
-            </div>
-        </div>
-    </section>
 </main>
 
-<link rel="stylesheet" href="/css/contact.css">
+<!-- <link rel="stylesheet" href="/css/contact.css">
 <link rel="stylesheet" href="/css/responsive.css">
-<script src="/js/contact.js"></script>
+<script src="/js/contact.js"></script> -->
 
 <%- include('partials/footer') %>

@@ -1,71 +1,84 @@
 <%- include('partials/header') %>
 
-<main class="home-page">
-    <div id="error-message" class="error-message" style="display: none;"></div>
-    
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Gym Manager</h1>
-            <p>Your all-in-one solution for managing gym members, workouts, and training records.</p>
-            <div class="hero-actions">
-                <a href="/members" class="btn-primary">Manage Members</a>
-                <a href="/workouts" class="btn-secondary">View Workouts</a>
-            </div>
-        </div>
-    </section>
+<main class="home-page bg-gray-100">
 
-    <section class="features">
-        <h2>Features</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">👥</div>
-                <h3>Member Management</h3>
-                <p>Easily add, update, and track gym members. Manage memberships and personal information.</p>
-                <a href="/members" class="feature-link">Manage Members →</a>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">💪</div>
-                <h3>Workout Library</h3>
-                <p>Create and organize workouts by difficulty and type. Perfect for trainers and members.</p>
-                <a href="/workouts" class="feature-link">View Workouts →</a>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>Training Records</h3>
-                <p>Keep track of member progress with detailed workout records and performance metrics.</p>
-                <a href="/records" class="feature-link">View Records →</a>
-            </div>
-        </div>
-    </section>
+  <!-- Error Message Section -->
+  <div id="error-message" class="error-message text-red-500 text-center py-4 px-6 bg-red-100 rounded-lg shadow-md" style="display: none;"></div>
 
-    <section class="quick-stats">
-        <h2>Quick Stats</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <h3>Active Members</h3>
-                <p id="member-count">Loading...</p>
-            </div>
-            <div class="stat-card">
-                <h3>Available Workouts</h3>
-                <p id="workout-count">Loading...</p>
-            </div>
-            <div class="stat-card">
-                <h3>Total Records</h3>
-                <p id="record-count">Loading...</p>
-            </div>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero bg-blue-600 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Welcome to Gym Manager</h1>
+      <p class="mt-4 text-xl md:text-2xl">Your all-in-one solution for managing gym members, workouts, and training records.</p>
+      <div class="hero-actions mt-8 flex justify-center space-x-6">
+        <a href="/members" class="btn-primary bg-blue-700 text-white py-3 px-6 rounded-lg hover:bg-blue-800 transition duration-300">Manage Members</a>
+        <a href="/workouts" class="btn-secondary bg-gray-700 text-white py-3 px-6 rounded-lg hover:bg-gray-800 transition duration-300">View Workouts</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="cta">
-        <div class="cta-content">
-            <h2>Ready to Get Started?</h2>
-            <p>Start managing your gym more efficiently today.</p>
-            <a href="/members/new" class="btn-primary">Add New Member</a>
+  <!-- Features Section -->
+  <section class="features py-16">
+    <div class="container mx-auto text-center px-4">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-8">Features</h2>
+      <div class="features-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div class="feature-card bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="feature-icon text-4xl text-blue-600 mb-4">👥</div>
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Member Management</h3>
+          <p class="text-gray-600 mb-4">Easily add, update, and track gym members. Manage memberships and personal information.</p>
+          <a href="/members" class="feature-link text-blue-600 hover:underline">Manage Members →</a>
         </div>
-    </section>
+        <div class="feature-card bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="feature-icon text-4xl text-blue-600 mb-4">💪</div>
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Workout Library</h3>
+          <p class="text-gray-600 mb-4">Create and organize workouts by difficulty and type. Perfect for trainers and members.</p>
+          <a href="/workouts" class="feature-link text-blue-600 hover:underline">View Workouts →</a>
+        </div>
+        <div class="feature-card bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+          <div class="feature-icon text-4xl text-blue-600 mb-4">📊</div>
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">Training Records</h3>
+          <p class="text-gray-600 mb-4">Keep track of member progress with detailed workout records and performance metrics.</p>
+          <a href="/records" class="feature-link text-blue-600 hover:underline">View Records →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats Section -->
+  <section class="quick-stats py-16 bg-gray-50">
+    <div class="container mx-auto text-center px-4">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-8">Quick Stats</h2>
+      <div class="stats-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Active Members</h3>
+          <p id="member-count" class="text-2xl font-bold text-gray-600">Loading...</p>
+        </div>
+        <div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Available Workouts</h3>
+          <p id="workout-count" class="text-2xl font-bold text-gray-600">Loading...</p>
+        </div>
+        <div class="stat-card bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Total Records</h3>
+          <p id="record-count" class="text-2xl font-bold text-gray-600">Loading...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta py-16 bg-blue-600 text-white">
+    <div class="cta-content container mx-auto text-center px-4">
+      <h2 class="text-3xl font-semibold mb-4">Ready to Get Started?</h2>
+      <p class="text-xl mb-6">Start managing your gym more efficiently today.</p>
+      <a href="/members/new" class="btn-primary bg-blue-700 text-white py-3 px-6 rounded-lg hover:bg-blue-800 transition duration-300">Add New Member</a>
+    </div>
+  </section>
+
 </main>
 
-<link rel="stylesheet" href="/css/index.css">
-<link rel="stylesheet" href="/css/responsive.css">
+<!-- <link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/responsive.css"> -->
+
 <%- include('partials/footer') %>
+
 <script src="/js/home.js"></script>
