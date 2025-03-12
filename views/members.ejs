@@ -10,12 +10,12 @@
       <div class="form-group">
         <label for="name" class="block text-sm font-medium text-gray-700">Full Name:</label>
         <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" pattern="[A-Za-z\s]+" title="Name should only contain letters and spaces">
-      </div>
+        </div>
 
       <div class="form-group">
         <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
         <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-      </div>
+        </div>
 
       <div class="form-group">
         <label for="phone" class="block text-sm font-medium text-gray-700">Phone:</label>
@@ -25,19 +25,19 @@
             <option value="+81">🇯🇵 +81 (Japan)</option>
             <option value="+880">🇧🇩 +880 (Bangladesh)</option>
             <option value="+91">🇮🇳 +91 (India)</option>
-          </select>
+            </select>
           <input type="tel" id="phone" name="phone" required class="mt-1 block w-3/4 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" pattern="\+\d{1,3}\s\(\d{1,4}\)\s\d{3,4}[-\s]\d{4}" placeholder="(XXX) XXX-XXXX" title="Please enter a valid phone number with country code">
+          </div>
         </div>
-      </div>
 
       <div class="form-group">
         <label for="membershipType" class="block text-sm font-medium text-gray-700">Membership Type:</label>
         <select id="membershipType" name="membershipType" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-          <option value="basic">Basic</option>
-          <option value="premium">Premium</option>
-          <option value="platinum">Platinum</option>
-        </select>
-      </div>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+            <option value="platinum">Platinum</option>
+          </select>
+        </div>
 
       <div class="form-group">
         <label for="joinDate" class="block text-sm font-medium text-gray-700">Join Date:</label>
@@ -91,12 +91,12 @@
         <div class="form-group">
           <label for="edit-name" class="block text-sm font-medium text-gray-700">Full Name:</label>
           <input type="text" id="edit-name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
+            </div>
 
         <div class="form-group">
           <label for="edit-email" class="block text-sm font-medium text-gray-700">Email:</label>
           <input type="email" id="edit-email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        </div>
+            </div>
 
         <div class="form-group">
           <label for="edit-phone" class="block text-sm font-medium text-gray-700">Phone:</label>
@@ -132,16 +132,12 @@
             <input type="checkbox" id="edit-active" name="active" class="form-checkbox h-4 w-4 text-indigo-600">
             <span class="ml-2">Active Member</span>
           </label>
-        </div>
+      </div>
 
         <button type="submit" class="btn-primary px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Update Member</button>
       </form>
     </div>
   </div>
 
-  <!-- Link to external CSS and JS files -->
-  <!-- <link rel="stylesheet" href="/css/members.css">
-  <link rel="stylesheet" href="/css/responsive.css">
-  <script src="/js/members.js"></script> -->
-
-  <%- include('partials/footer') %>
+<script src="/js/members.js"></script>
+<%- include('partials/footer') %>
