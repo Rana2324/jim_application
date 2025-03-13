@@ -5,63 +5,70 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Define log format
-const logFormat = winston.format.combine(
-  winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-  winston.format.errors({ stack: true }),
-  winston.format.splat(),
-  winston.format.json()
+// Define log directory path
+const logDirectory = path.join(path.dirname(__dirname), 'logs');
+
+// Custom format for console logs with colors
+const consoleFormat = winston.format.combine(
+  winston.format.colorize(),
+  winston.format.printf(({ level, message }) => {
+    // For error messages that are already formatted in our custom format
+    if (level.includes('error') && message.includes('Timestamp:')) {
+      const lines = message.split('\n');
+      return [
+        `\x1b[31m${lines[0]}\x1b[0m`, // Timestamp in red
+        `\x1b[1;31m${lines[1]}\x1b[0m`, // Error Message in bold red
+        `\x1b[36m${lines[2]}\x1b[0m`, // File in cyan
+        `\x1b[35m${lines[3]}\x1b[0m`, // Method in magenta
+        `\x1b[33m${lines[4]}\x1b[0m`, // Line in yellow
+        `\x1b[37m${lines[5]}\x1b[0m`, // Stack Trace header in white
+        ...lines.slice(6).map(line => `\x1b[90m${line}\x1b[0m`) // Stack trace in gray
+      ].join('\n');
+    }
+    return `${level}: ${message}`;
+  })
 );
 
-// Create the logger
-const logger = winston.createLogger({
-  level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
-  format: logFormat,
-  transports: [
-    // Write all logs with level 'error' and below to error.log
-    new winston.transports.File({
-      filename: path.join(__dirname, '..', 'logs', 'error.log'),
-      level: 'error',
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-    // Write all logs with level 'info' and below to combined.log
-    new winston.transports.File({
-      filename: path.join(__dirname, '..', 'logs', 'combined.log'),
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-  ],
-  // Handle exceptions and rejections
-  exceptionHandlers: [
-    new winston.transports.File({
-      filename: path.join(__dirname, '..', 'logs', 'exceptions.log'),
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-  ],
-  rejectionHandlers: [
-    new winston.transports.File({
-      filename: path.join(__dirname, '..', 'logs', 'rejections.log'),
-      maxsize: 5242880, // 5MB
-      maxFiles: 5,
-    }),
-  ],
+// Custom format for detailed error logging in files
+const detailedErrorFormat = winston.format.printf(({ message }) => {
+  return message; // Return the message exactly as is, without any additional formatting
 });
 
-// Add console transport for non-production environments
-if (process.env.NODE_ENV !== 'production') {
-  logger.add(new winston.transports.Console({
-    format: winston.format.combine(
-      winston.format.colorize(),
-      winston.format.simple()
-    ),
-  }));
-}
-
-// Create a stream object for Morgan
-logger.stream = {
-  write: (message) => logger.info(message.trim()),
-};
+// logger configuration
+const logger = winston.createLogger({
+  level: 'info',
+  transports: [
+    new winston.transports.Console({
+      format: consoleFormat
+    }),
+    new winston.transports.File({
+      filename: path.join(logDirectory, 'error.log'),
+      level: 'error',
+      format: detailedErrorFormat // Use only the detailed error format without timestamp
+    }),
+    new winston.transports.File({
+      filename: path.join(logDirectory, 'combined.log'),
+      format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+      ),
+    }),
+  ],
+  // Add exception handling
+  exceptionHandlers: [
+    new winston.transports.File({
+      filename: path.join(logDirectory, 'exceptions.log'),
+      format: detailedErrorFormat
+    })
+  ],
+  // Add promise rejection handling
+  rejectionHandlers: [
+    new winston.transports.File({
+      filename: path.join(logDirectory, 'rejections.log'),
+      format: detailedErrorFormat
+    })
+  ],
+  exitOnError: false
+});
 
 export default logger;

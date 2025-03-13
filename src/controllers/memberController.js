@@ -4,7 +4,7 @@ import memberService from "../services/memberService.js";
 const memberController = {
     getAll: async (req, res, next) => {
         try {
-            const members = await memberService.getAll();
+            const members = await memberService.getAl();
             if (!members || members.length === 0) {
                 return res.status(404).json({
                     ok: false,

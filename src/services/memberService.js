@@ -5,7 +5,7 @@ import CustomError from "../utils/customError.js";
 const memberService = {
     getAll: async () => {
         try {
-            const members = await Member.find();
+            const members = await Member.fin();
             if (!members || members.length === 0) {
                 throw new CustomError('No members found', 404);
             }

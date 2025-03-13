@@ -6,6 +6,7 @@ import router from './routes/index.js';
 import pageRoutes from './routes/pageRoutes.js';
 import logger from './config/logger.js';
 import morganMiddleware from './config/morgan.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 const app = express();
 
@@ -35,16 +36,8 @@ app.use((req, res) => {
     res.status(404).render('404');
 });
 
-// Global error handler
-app.use((err, req, res, next) => {
-    logger.error('Unhandled error:', err);
-    res.status(500).json({
-        success: false,
-        message: process.env.NODE_ENV === 'production' 
-            ? 'Internal server error' 
-            : err.message
-    });
-});
+// Use our custom error handler middleware
+app.use(errorHandler);
 
 // Export the app instance
 export default app;
