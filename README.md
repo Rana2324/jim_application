@@ -14,6 +14,7 @@ A RESTful API service for managing workout routines, members, and exercise recor
 - MongoDB database integration | MongoDB ডাটাবেস ইন্টিগ্রেশন
 - Error handling with custom error messages | কাস্টম এরর মেসেজ সহ এরর হ্যান্ডলিং
 - Logging system for better debugging | ভালো ডিবাগিংয়ের জন্য লগিং সিস্টেম
+- Code quality enforcement with ESLint and Prettier | ESLint এবং Prettier দিয়ে কোড কোয়ালিটি নিশ্চিতকরণ
 
 ### Technology Stack | টেকনোলজি স্ট্যাক
 
@@ -22,12 +23,15 @@ A RESTful API service for managing workout routines, members, and exercise recor
 - MongoDB & Mongoose
 - Morgan for HTTP request logging | HTTP রিকোয়েস্ট লগিংয়ের জন্য Morgan
 - Dotenv for environment variables | এনভায়রনমেন্ট ভ্যারিয়েবলের জন্য Dotenv
+- ESLint for code linting | কোড লিন্টিং এর জন্য ESLint
+- Prettier for code formatting | কোড ফরম্যাটিং এর জন্য Prettier
 
 ### Prerequisites | পূর্বশর্ত
 
 - Node.js (v14 or higher)
 - MongoDB (v4.4 or higher)
 - npm or yarn
+- VSCode (recommended editor)
 
 ### Installation | ইনস্টলেশন
 
@@ -126,31 +130,89 @@ jim_application/
 │   ├── services/      # Business logic | বিজনেস লজিক
 │   ├── utils/         # Utility functions | ইউটিলিটি ফাংশন
 │   └── server.js      # Main application file | মূল অ্যাপ্লিকেশন ফাইল
+├── .vscode/          # VSCode settings | VSCode সেটিংস
+├── public/           # Static files | স্ট্যাটিক ফাইল
+├── views/            # EJS templates | EJS টেমপ্লেট
 ├── .env              # Environment variables | এনভায়রনমেন্ট ভ্যারিয়েবল
 ├── .env.example      # Environment template | এনভায়রনমেন্ট টেমপ্লেট
+├── .prettierrc       # Prettier configuration | Prettier কনফিগারেশন
+├── .prettierignore   # Prettier ignore patterns | Prettier ইগনোর প্যাটার্ন
+├── eslint.config.js  # ESLint configuration | ESLint কনফিগারেশন
 ├── package.json
 └── README.md
 ```
 
-### Error Handling | এরর হ্যান্ডলিং
+### ESLint and Prettier Setup | ESLint এবং Prettier সেটআপ
 
-The application includes a custom error handling system that provides clear error messages and appropriate HTTP status codes.
-অ্যাপ্লিকেশনটিতে একটি কাস্টম এরর হ্যান্ডলিং সিস্টেম রয়েছে যা স্পষ্ট এরর মেসেজ এবং উপযুক্ত HTTP স্ট্যাটাস কোড প্রদান করে।
+This project uses ESLint and Prettier to enforce code quality and consistent formatting. Here's how it's set up:
 
-### Environment Variables | এনভায়রনমেন্ট ভ্যারিয়েবল
+#### ESLint Configuration | ESLint কনফিগারেশন
 
-Required environment variables:
+The project uses ESLint v9 with the new flat config format in `eslint.config.js`:
 
-- `PORT`: Server port (default: 5000)
-- `MONGODB_URI`: MongoDB connection string (default: mongodb://localhost:27017/jim_application)
+```javascript
+// Main ESLint rules
+{
+  'no-console': 'warn',        // console স্টেটমেন্ট ব্যবহার হলে সতর্ক করবে
+  'no-unused-vars': 'warn',    // অব্যবহৃত ভেরিয়েবলগুলোর জন্য সতর্ক করবে
+  'prefer-const': 'error',     // যদি কোনো ভেরিয়েবল কখনো পুনঃআবৃত্তি না হয় তবে const ব্যবহার করার জন্য চাপ দেবে
+  'no-var': 'error',           // var ব্যবহার নিষিদ্ধ করবে
+  'eqeqeq': ['error', 'always'], // সর্বদা কঠোর সমতা (=== এবং !==) ব্যবহার করতে বলবে
+  'quotes': ['error', 'single'], // একক কোটস ব্যবহার করতে বলবে
+  'semi': ['error', 'always'],   // সব স্টেটমেন্টে সেমিকোলন প্রয়োজন
+}
+```
 
-### Contributing | কন্ট্রিবিউশন
+#### Prettier Configuration | Prettier কনফিগারেশন
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+The `.prettierrc` file defines the code formatting rules:
+
+```json
+{
+  "semi": true,           // সেমিকোলন প্রয়োজন
+  "singleQuote": true,    // একক কোটস ব্যবহার করবে
+  "tabWidth": 2,          // ট্যাব সাইজ ২ স্পেস
+  "trailingComma": "es5", // ES5 স্টাইলে ট্রেইলিং কমা
+  "printWidth": 100,      // লাইন প্রতি সর্বোচ্চ ১০০ অক্ষর
+  "bracketSpacing": true  // ব্র্যাকেটের মধ্যে স্পেসিং
+}
+```
+
+#### VSCode Integration | VSCode ইন্টিগ্রেশন
+
+The `.vscode/settings.json` file configures VSCode to work seamlessly with ESLint and Prettier:
+
+```json
+{
+  "editor.formatOnSave": true,  // সেভ করার সময় ফরম্যাট করবে
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"  // সেভ করার সময় ESLint ফিক্স করবে
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"  // ডিফল্ট ফরম্যাটার হিসেবে Prettier ব্যবহার করবে
+}
+```
+
+#### Required VSCode Extensions | প্রয়োজনীয় VSCode এক্সটেনশন
+
+For the best development experience, install these VSCode extensions:
+
+1. **ESLint** by Microsoft
+2. **Prettier - Code formatter** by Prettier
+
+#### NPM Scripts | NPM স্ক্রিপ্ট
+
+The following npm scripts are available for linting and formatting:
+
+```bash
+# Run ESLint on the entire project
+npm run lint
+
+# Run ESLint and fix auto-fixable issues
+npm run lint:fix
+
+# Format all files with Prettier
+npm run format
+```
 
 ### Morgan & Streams | মর্গন স্ট্রিম docs
 
