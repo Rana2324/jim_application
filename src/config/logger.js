@@ -31,7 +31,7 @@ const logFormat = winston.format.combine(
 
 // Detailed log format with timestamp for errors and rejections
 const detailedErrorFormat = winston.format.printf(({ timestamp, level, message }) => {
-  return `${timestamp} - ${level}: ${message}`;
+  return `${timestamp} - ${level.toUpperCase()}: ${message}`;
 });
 
 // Create common transport settings for file logs
@@ -46,7 +46,7 @@ const createFileTransport = (filename, level = 'info', format = detailedErrorFor
 // Logger setup
 const logger = winston.createLogger({
   level: 'info', // Default log level is 'info'
-  
+
   transports: [
     // Log to console with colorized output
     new winston.transports.Console({
@@ -67,14 +67,10 @@ const logger = winston.createLogger({
   ],
 
   // Handling unhandled exceptions
-  exceptionHandlers: [
-    createFileTransport('exceptions.log', 'error'),
-  ],
+  exceptionHandlers: [createFileTransport('exceptions.log', 'error')],
 
   // Handling promise rejections
-  rejectionHandlers: [
-    createFileTransport('rejections.log', 'error'),
-  ],
+  rejectionHandlers: [createFileTransport('rejections.log', 'error')],
 
   // Prevents process from exiting on handled errors
   exitOnError: false,

@@ -159,3 +159,7 @@ https://www.notion.so/Morgan-1737b9a159e78065b1f1f2602b394a3c?pvs=25
 ### winston || ওয়াইসনার docs
 
 https://www.notion.so/Winston-1b67b9a159e7806b8748e3779511d7b2?pvs=25
+
+### ESLint এবং Prettier কনফিগারেশন সংরক্ষণ
+
+https://www.notion.so/ESLint-Prettier-1b67b9a159e780ca8862f9dee449f3b6?pvs=25

@@ -31,8 +31,8 @@ app.use('/api/v1', router);
 
 // Add error handling for undefined routes
 app.use((req, res) => {
-    logger.warn(`404 - Route not found: ${req.originalUrl}`);
-    res.status(404).render('404');
+  logger.warn(`404 - Route not found: ${req.originalUrl}`);
+  res.status(404).render('404');
 });
 
 // Use our custom error handler middleware
