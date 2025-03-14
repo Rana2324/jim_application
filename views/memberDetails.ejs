@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> | Gym Management</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <%- include('./partials/header') %>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6 max-w-3xl mx-auto">
+            <h1 class="text-2xl font-bold text-gray-800 mb-6">Member Details</h1>
+            
+            <% if (member) { %>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div>
+                            <h2 class="text-lg font-semibold text-gray-700">Personal Information</h2>
+                            <div class="mt-2 border-t pt-2">
+                                <p class="text-gray-600"><span class="font-medium">Name:</span> <%= member.name %></p>
+                                <p class="text-gray-600"><span class="font-medium">Email:</span> <%= member.email %></p>
+                                <p class="text-gray-600"><span class="font-medium">Phone:</span> <%= member.phone %></p>
+                                <p class="text-gray-600"><span class="font-medium">Gender:</span> 
+                                    <% if (member.gender) { %>
+                                        <%= member.gender.charAt(0).toUpperCase() + member.gender.slice(1) %>
+                                    <% } else { %>
+                                        Not specified
+                                    <% } %>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <h2 class="text-lg font-semibold text-gray-700">Membership Details</h2>
+                            <div class="mt-2 border-t pt-2">
+                                <p class="text-gray-600"><span class="font-medium">Membership Type:</span> <%= member.membershipType || 'Not specified' %></p>
+                                <p class="text-gray-600"><span class="font-medium">Member Since:</span> <%= new Date(member.createdAt).toLocaleDateString() %></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8 flex space-x-4">
+                    <a href="/members" class="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition">Back to Members</a>
+                    <a href="/members/edit/<%= member._id %>" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Edit Member</a>
+                </div>
+            <% } else { %>
+                <div class="text-center py-8">
+                    <p class="text-gray-600">Member not found.</p>
+                    <a href="/members" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Back to Members</a>
+                </div>
+            <% } %>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <%- include('./partials/footer') %>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 import recordService from '../services/recordService.js';
+import logger from '../config/logger.js';
 
-// member controller
+// record controller
 const recordController = {
   getAll: async (req, res, next) => {
     try {
@@ -14,10 +15,17 @@ const recordController = {
       res.json({
         ok: true,
         message: 'Records fetched successfully',
-        data: members,
+        data: records,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching records: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch records',
+      });
     }
   },
 
@@ -42,10 +50,18 @@ const recordController = {
       res.json({
         ok: true,
         message: 'Record fetched successfully',
-        data: member,
+        data: record,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching record: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        recordId: req.params.recordId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch record',
+      });
     }
   },
 
@@ -65,9 +81,18 @@ const recordController = {
         data: newRecord,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error creating record: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to create record',
+      });
     }
   },
+  
   update: async (req, res, next) => {
     try {
       const { recordId } = req.params;
@@ -89,10 +114,19 @@ const recordController = {
       res.json({
         ok: true,
         message: 'Record updated successfully',
-        data: updatedMember,
+        data: updatedRecord,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error updating record: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        recordId: req.params.recordId,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to update record',
+      });
     }
   },
 
@@ -119,7 +153,15 @@ const recordController = {
         message: 'Record deleted successfully',
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error deleting record: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        recordId: req.params.recordId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to delete record',
+      });
     }
   },
 };

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> | Gym Management</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <%- include('./partials/header') %>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6 max-w-3xl mx-auto">
+            <h1 class="text-2xl font-bold text-gray-800 mb-6">Record Details</h1>
+            
+            <% if (record) { %>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div>
+                            <h2 class="text-lg font-semibold text-gray-700">Record Information</h2>
+                            <div class="mt-2 border-t pt-2">
+                                <p class="text-gray-600"><span class="font-medium">Member:</span> <%= record.memberId ? record.memberId.name : 'Unknown' %></p>
+                                <p class="text-gray-600"><span class="font-medium">Workout:</span> <%= record.workoutId ? record.workoutId.name : 'Unknown' %></p>
+                                <p class="text-gray-600"><span class="font-medium">Date:</span> <%= new Date(record.date).toLocaleDateString() %></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div>
+                            <h2 class="text-lg font-semibold text-gray-700">Performance Details</h2>
+                            <div class="mt-2 border-t pt-2">
+                                <p class="text-gray-600"><span class="font-medium">Weight:</span> <%= record.weight %> kg</p>
+                                <p class="text-gray-600"><span class="font-medium">Reps:</span> <%= record.reps %></p>
+                                <p class="text-gray-600"><span class="font-medium">Sets:</span> <%= record.sets %></p>
+                                <p class="text-gray-600"><span class="font-medium">Duration:</span> <%= record.duration %> minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-lg font-semibold text-gray-700">Notes</h3>
+                    <div class="mt-2 border-t pt-2">
+                        <p class="text-gray-600"><%= record.notes || 'No notes available' %></p>
+                    </div>
+                </div>
+                
+                <div class="mt-8 flex space-x-4">
+                    <a href="/records" class="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition">Back to Records</a>
+                    <a href="/records/edit/<%= record._id %>" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Edit Record</a>
+                </div>
+            <% } else { %>
+                <div class="text-center py-8">
+                    <p class="text-gray-600">Record not found.</p>
+                    <a href="/records" class="mt-4 inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Back to Records</a>
+                </div>
+            <% } %>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <%- include('./partials/footer') %>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,4 +1,5 @@
 import memberService from '../services/memberService.js';
+import logger from '../config/logger.js';
 
 // member controller
 const memberController = {
@@ -17,7 +18,14 @@ const memberController = {
         data: members,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching members: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch members',
+      });
     }
   },
 
@@ -45,7 +53,15 @@ const memberController = {
         data: member,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching member: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        memberId: req.params.memberId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch member',
+      });
     }
   },
 
@@ -65,9 +81,18 @@ const memberController = {
         data: newMember,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error creating member: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to create member',
+      });
     }
   },
+  
   update: async (req, res, next) => {
     try {
       const { memberId } = req.params;
@@ -92,7 +117,16 @@ const memberController = {
         data: updatedMember,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error updating member: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        memberId: req.params.memberId,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to update member',
+      });
     }
   },
 
@@ -119,7 +153,15 @@ const memberController = {
         message: 'Member deleted successfully',
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error deleting member: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        memberId: req.params.memberId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to delete member',
+      });
     }
   },
 };

@@ -16,7 +16,7 @@ const memberSchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
-      match: [/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/, 'Pleasewrite valid email'],
+      match: [/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/, 'Please write valid email'],
     },
     password: {
       type: String,
@@ -30,7 +30,7 @@ const memberSchema = new mongoose.Schema(
     phone: {
       type: String,
       required: true,
-      match: [/^\+?[1-9]\d{1,14}$/, 'Please write valid phone number'],
+      match: [/^(?:\+?\d{1,3}[-.\s]?)?\(?(?:\d{2,3})\)?[-.\s]?(?:\d{3,4})[-.\s]?(?:\d{4})$/, 'Please write valid phone number'],
     },
   },
   {

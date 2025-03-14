@@ -1,4 +1,5 @@
 import workoutService from '../services/workoutService.js';
+import logger from '../config/logger.js';
 
 const WorkoutController = {
   getAll: async (req, res, next) => {
@@ -16,7 +17,14 @@ const WorkoutController = {
         data: workouts,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching workouts: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch workouts',
+      });
     }
   },
 
@@ -42,7 +50,15 @@ const WorkoutController = {
         data: workout,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error fetching workout: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        workoutId: req.params.workoutId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to fetch workout',
+      });
     }
   },
 
@@ -61,7 +77,15 @@ const WorkoutController = {
         data: newWorkout,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error creating workout: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to create workout',
+      });
     }
   },
 
@@ -87,7 +111,16 @@ const WorkoutController = {
         data: updatedWorkout,
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error updating workout: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        workoutId: req.params.workoutId,
+        requestBody: req.body,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to update workout',
+      });
     }
   },
 
@@ -112,11 +145,17 @@ const WorkoutController = {
         message: 'Workout deleted successfully',
       });
     } catch (error) {
-      next(error);
+      logger.error(`Error deleting workout: ${error.message}`, {
+        stack: error.stack,
+        status: error.status || 500,
+        workoutId: req.params.workoutId,
+      });
+      res.status(error.status || 500).json({
+        ok: false,
+        message: error.message || 'Failed to delete workout',
+      });
     }
   },
 };
 
 export default WorkoutController;
-
-// Let me know if you want any adjustments or enhancements! 🚀

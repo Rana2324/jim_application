@@ -1,0 +1,1257 @@
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:22:42"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:23:04"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:11"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:11"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:24:11"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:11"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:11"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:11"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:11"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:11"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:12"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:12"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:12"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:12"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:33"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:24:33"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:24:52"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:24:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:27"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:27"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:27"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:27"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:27"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:27"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:27"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:27"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:28"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:28"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:28"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:28"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:28"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:29"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:29"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:29"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:29"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:29"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:30"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:30"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:30"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:32"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:32"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:32"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:32"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:32"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:33"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:33"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:33"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:37"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:37"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:37"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:37"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:37"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:38"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:38"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:39"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:39"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:40"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:41"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:41"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:45"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:45"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:46"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:46"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:51"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:52"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:53"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:54"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:54"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:56"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:56"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:25:57"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:25:57"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:02"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:02"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:03"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:03"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:07"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:08"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:08"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:26:36"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:26:36"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:26:36"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:26:36"}
+{"level":"error","message":"Express server error: listen EADDRINUSE: address already in use :::5000","timestamp":"2025-03-14 16:26:36"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5000 is in use, trying port 50001","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Server started on port 5001 http://localhost:5001","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5000 is in use, trying port 50001","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5001 is in use, trying port 5002","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Server started on port 5002 http://localhost:5002","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5000 is in use, trying port 50001","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5001 is in use, trying port 5002","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Port 5002 is in use, trying port 5003","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Server started on port 5003 http://localhost:5003","timestamp":"2025-03-14 16:27:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Port 5000 is in use, trying port 50001","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Port 5001 is in use, trying port 5002","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Port 5002 is in use, trying port 5003","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Port 5003 is in use, trying port 5004","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Server started on port 5004 http://localhost:5004","timestamp":"2025-03-14 16:27:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Port 5000 is in use, trying port 50001","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Port 5001 is in use, trying port 5002","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Port 5002 is in use, trying port 5003","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Port 5003 is in use, trying port 5004","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Port 5004 is in use, trying port 5005","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"Server started on port 5005 http://localhost:5005","timestamp":"2025-03-14 16:27:49"}
+{"level":"info","message":"\u001b[0mGET / \u001b[32m200\u001b[0m 11.330 ms - 8257\u001b[0m","timestamp":"2025-03-14 16:28:41"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[32m200\u001b[0m 6.309 ms - -\u001b[0m","timestamp":"2025-03-14 16:28:41"}
+{"level":"warn","message":"404 - Route not found: /favicon.ico","timestamp":"2025-03-14 16:28:41"}
+{"level":"info","message":"\u001b[0mGET /favicon.ico \u001b[33m404\u001b[0m 3.601 ms - 5628\u001b[0m","timestamp":"2025-03-14 16:28:41"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:29:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:29:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:29:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:29:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:29:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:29:48"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:29:48"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:29:48"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:29:48"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:29:48"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:29:48"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:30:00"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:30:00"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:30:00"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:30:00"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:30:00"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:30:00"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:30:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:30:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:30:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:30:23"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:30:23"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 9.371 ms - -\u001b[0m","timestamp":"2025-03-14 16:30:48"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.054 ms - -\u001b[0m","timestamp":"2025-03-14 16:30:48"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 2.723 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:35"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.880 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:35"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 13.290 ms - 42325\u001b[0m","timestamp":"2025-03-14 16:31:37"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[32m200\u001b[0m 1.771 ms - 7530\u001b[0m","timestamp":"2025-03-14 16:31:37"}
+{"level":"error","message":"Error rendering workouts page: Failed to retrieve workouts","timestamp":"2025-03-14 16:31:38"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:31:38\n❗ Error Message: Failed to retrieve workouts\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.getAll\n📍 Line Number: 13\n\n🧩 Stack Trace:\nCustomError: Failed to retrieve workouts\n    at Object.getAll (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async renderAllWorkouts (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/workoutViewController.js:10:24)\n","timestamp":"2025-03-14 16:31:38"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[33m404\u001b[0m 4.434 ms - 58\u001b[0m","timestamp":"2025-03-14 16:31:38"}
+{"level":"error","message":"Error rendering records page: Failed to retrieve workouts","timestamp":"2025-03-14 16:31:42"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:31:42\n❗ Error Message: Failed to retrieve workouts\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.getAll\n📍 Line Number: 13\n\n🧩 Stack Trace:\nCustomError: Failed to retrieve workouts\n    at Object.getAll (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Promise.all (index 2)\n    at async renderAllRecords (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/recordViewController.js:12:44)\n","timestamp":"2025-03-14 16:31:42"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[33m404\u001b[0m 4.524 ms - 58\u001b[0m","timestamp":"2025-03-14 16:31:42"}
+{"level":"info","message":"\u001b[0mGET /about \u001b[32m200\u001b[0m 3.369 ms - 8135\u001b[0m","timestamp":"2025-03-14 16:31:45"}
+{"level":"info","message":"\u001b[0mGET /js/about.js \u001b[36m304\u001b[0m 0.445 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:45"}
+{"level":"info","message":"\u001b[0mGET /contact \u001b[32m200\u001b[0m 2.279 ms - 8279\u001b[0m","timestamp":"2025-03-14 16:31:47"}
+{"level":"info","message":"\u001b[0mGET /js/contact.js \u001b[36m304\u001b[0m 0.351 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:47"}
+{"level":"error","message":"Error rendering workouts page: Failed to retrieve workouts","timestamp":"2025-03-14 16:31:48"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:31:48\n❗ Error Message: Failed to retrieve workouts\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.getAll\n📍 Line Number: 13\n\n🧩 Stack Trace:\nCustomError: Failed to retrieve workouts\n    at Object.getAll (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async renderAllWorkouts (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/workoutViewController.js:10:24)\n","timestamp":"2025-03-14 16:31:48"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[33m404\u001b[0m 3.595 ms - 58\u001b[0m","timestamp":"2025-03-14 16:31:48"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.160 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:51"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.302 ms - -\u001b[0m","timestamp":"2025-03-14 16:31:51"}
+{"level":"error","message":"Error rendering workouts page: Failed to retrieve workouts","timestamp":"2025-03-14 16:31:52"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:31:52\n❗ Error Message: Failed to retrieve workouts\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.getAll\n📍 Line Number: 13\n\n🧩 Stack Trace:\nCustomError: Failed to retrieve workouts\n    at Object.getAll (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async renderAllWorkouts (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/workoutViewController.js:10:24)\n","timestamp":"2025-03-14 16:31:52"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[33m404\u001b[0m 3.197 ms - 58\u001b[0m","timestamp":"2025-03-14 16:31:52"}
+{"level":"error","message":"Error rendering records page: Failed to retrieve workouts","timestamp":"2025-03-14 16:31:55"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:31:55\n❗ Error Message: Failed to retrieve workouts\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.getAll\n📍 Line Number: 13\n\n🧩 Stack Trace:\nCustomError: Failed to retrieve workouts\n    at Object.getAll (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Promise.all (index 2)\n    at async renderAllRecords (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/recordViewController.js:12:44)\n","timestamp":"2025-03-14 16:31:55"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[33m404\u001b[0m 4.149 ms - 58\u001b[0m","timestamp":"2025-03-14 16:31:55"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:32:57"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:32:57"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:32:57"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:32:57"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:32:57"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:32:57"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:32:58"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:32:58"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:32:58"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:32:58"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:32:58"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:16"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:16"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:16"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:16"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:33:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:35"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:35"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:33:35"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:48"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:33:48"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:48"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:48"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:48"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:33:48"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:33:49"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:33:49"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:33:49"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:33:49"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:33:49"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:07"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:34:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:22"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:22"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:22"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:22"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:22"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:22"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:23"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:34:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:34:33"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:34:33"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:34:33"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:34:33"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:34:33"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:34:33"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 12.052 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:49"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.308 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:49"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 2.800 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:54"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.566 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:54"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 19.774 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:55"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.490 ms - -\u001b[0m","timestamp":"2025-03-14 16:35:55"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[32m200\u001b[0m 4.414 ms - 12325\u001b[0m","timestamp":"2025-03-14 16:35:56"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[32m200\u001b[0m 1.304 ms - 5178\u001b[0m","timestamp":"2025-03-14 16:35:56"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[32m200\u001b[0m 10.853 ms - 16811\u001b[0m","timestamp":"2025-03-14 16:35:59"}
+{"level":"info","message":"\u001b[0mGET /js/records.js \u001b[32m200\u001b[0m 0.743 ms - 5310\u001b[0m","timestamp":"2025-03-14 16:35:59"}
+{"level":"info","message":"\u001b[0mGET /about \u001b[36m304\u001b[0m 1.713 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:00"}
+{"level":"info","message":"\u001b[0mGET /js/about.js \u001b[36m304\u001b[0m 0.319 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:00"}
+{"level":"info","message":"\u001b[0mGET /contact \u001b[36m304\u001b[0m 1.672 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:01"}
+{"level":"info","message":"\u001b[0mGET /js/contact.js \u001b[36m304\u001b[0m 0.397 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:01"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 1.492 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:02"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.355 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:02"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.268 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:03"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.349 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:03"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 4.876 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:15"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.419 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:15"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 1.885 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:18"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.512 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:18"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[36m304\u001b[0m 3.303 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:19"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[36m304\u001b[0m 0.378 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:19"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:36:42\n❗ Error Message: Failed to create workout\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js\n🔧 Method Name: Object.create\n📍 Line Number: 32\n\n🧩 Stack Trace:\nCustomError: Failed to create workout\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:32:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/workoutController.js:57:26)\n","timestamp":"2025-03-14 16:36:42"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/workouts \u001b[31m500\u001b[0m 15.125 ms - 55\u001b[0m","timestamp":"2025-03-14 16:36:42"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 1.952 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:53"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.402 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:53"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.011 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:55"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.400 ms - -\u001b[0m","timestamp":"2025-03-14 16:36:55"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:37:05\n❗ Error Message: Failed to create member\n📂 File Path: file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/memberService.js\n🔧 Method Name: Object.create\n📍 Line Number: 37\n\n🧩 Stack Trace:\nCustomError: Failed to create member\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/memberService.js:37:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/memberController.js:61:25)\n","timestamp":"2025-03-14 16:37:05"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[31m500\u001b[0m 4.559 ms - 54\u001b[0m","timestamp":"2025-03-14 16:37:05"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:13"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:13"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:13"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:13"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:13"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:13"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:14"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:14"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:14"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:35"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:35"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:35"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:35"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:35"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:35"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:38:36"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:38:36"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:38:36"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:42:51"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:42:51"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:42:51"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:42:51"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:42:51"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:43:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:43:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:43:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:19"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:19"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:44:19"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:44:20"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:44:20"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:44:20"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:39"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:39"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:39"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:39"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:44:39"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:44:39"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:44:59"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:44:59"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:44:59"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:44:59"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:44:59"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 12.965 ms - -\u001b[0m","timestamp":"2025-03-14 16:45:17"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.777 ms - -\u001b[0m","timestamp":"2025-03-14 16:45:17"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 18.824 ms - -\u001b[0m","timestamp":"2025-03-14 16:45:19"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.363 ms - -\u001b[0m","timestamp":"2025-03-14 16:45:19"}
+{"level":"error","message":"Error creating member: Invalid phone number format","requestBody":{"email":"kefoh@mailinator.com","gender":"male","membershipType":"basic","name":"Myra Ferrell","password":"Pa$$w0rd!","phone":"+1 (128) 130-2132"},"stack":"CustomError: Invalid phone number format\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/memberService.js:51:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/memberController.js:77:45)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:45:28"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[33m400\u001b[0m 8.827 ms - 52\u001b[0m","timestamp":"2025-03-14 16:45:28"}
+{"level":"error","message":"Error creating member: Invalid phone number format","requestBody":{"email":"kefoh@mailinator.com","gender":"male","membershipType":"basic","name":"Myra Ferrell","password":"Pa$$w0rd!","phone":"+1 (128) 130-2132"},"stack":"CustomError: Invalid phone number format\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/memberService.js:51:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/memberController.js:77:45)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:45:38"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[33m400\u001b[0m 1.755 ms - 52\u001b[0m","timestamp":"2025-03-14 16:45:38"}
+{"level":"error","message":"Error creating member: Invalid phone number format","requestBody":{"email":"kefoh@mailinator.com","gender":"male","membershipType":"basic","name":"Myra Ferrell","password":"Pa$$w0rd!","phone":"+1 (128) 130-2132"},"stack":"CustomError: Invalid phone number format\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/memberService.js:51:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/memberController.js:77:45)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:45:42"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[33m400\u001b[0m 1.793 ms - 52\u001b[0m","timestamp":"2025-03-14 16:45:42"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:40"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:40"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:40"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:40"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:40"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:40"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:41"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:41"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:41"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:52"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:52"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:52"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:46:53"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:46:53"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:46:53"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:47:01"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:47:01"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:47:01"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:47:01"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:47:01"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:47:01"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:47:22"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:47:22"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:47:22"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:47:22"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:47:22"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 12.007 ms - -\u001b[0m","timestamp":"2025-03-14 16:47:46"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.378 ms - -\u001b[0m","timestamp":"2025-03-14 16:47:46"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 23.554 ms - -\u001b[0m","timestamp":"2025-03-14 16:47:47"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.436 ms - -\u001b[0m","timestamp":"2025-03-14 16:47:47"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[32m201\u001b[0m 16.303 ms - 324\u001b[0m","timestamp":"2025-03-14 16:47:53"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 9.047 ms - 43432\u001b[0m","timestamp":"2025-03-14 16:47:57"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.345 ms - -\u001b[0m","timestamp":"2025-03-14 16:47:57"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[32m201\u001b[0m 3.855 ms - 328\u001b[0m","timestamp":"2025-03-14 16:48:16"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 6.510 ms - 44541\u001b[0m","timestamp":"2025-03-14 16:48:18"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.313 ms - -\u001b[0m","timestamp":"2025-03-14 16:48:18"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.879 ms - -\u001b[0m","timestamp":"2025-03-14 16:48:23"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.359 ms - -\u001b[0m","timestamp":"2025-03-14 16:48:23"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[36m304\u001b[0m 3.724 ms - -\u001b[0m","timestamp":"2025-03-14 16:48:26"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[36m304\u001b[0m 0.313 ms - -\u001b[0m","timestamp":"2025-03-14 16:48:26"}
+{"level":"error","message":"Error creating workout: Missing required fields: member, workoutType, duration, date, caloriesBurned","requestBody":{"difficulty":"advanced","equipment":"Id consequat Vitae ","instructions":"Sunt quasi harum ea","muscleGroup":"Quis error dolore qu","name":"Cassandra Mcintosh","type":"flexibility"},"stack":"CustomError: Missing required fields: member, workoutType, duration, date, caloriesBurned\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:44:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/workoutController.js:73:47)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:48:40"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/workouts \u001b[33m400\u001b[0m 1.933 ms - 101\u001b[0m","timestamp":"2025-03-14 16:48:40"}
+{"level":"error","message":"Error creating workout: Missing required fields: member, workoutType, duration, date, caloriesBurned","requestBody":{"difficulty":"advanced","equipment":"Id consequat Vitae ","instructions":"Sunt quasi harum ea","muscleGroup":"Quis error dolore qu","name":"Cassandra Mcintosh","type":"cardio"},"stack":"CustomError: Missing required fields: member, workoutType, duration, date, caloriesBurned\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/workoutService.js:44:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/workoutController.js:73:47)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:49:05"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/workouts \u001b[33m400\u001b[0m 1.666 ms - 101\u001b[0m","timestamp":"2025-03-14 16:49:05"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:50:47"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:50:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:50:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:50:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:50:47"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:50:47"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:06"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:06"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:06"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:51:07"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:51:07"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:07"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:07"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:51:07"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:52:05"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:52:05"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:52:05"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:52:05"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:52:05"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 11.986 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:19"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.492 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:19"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 22.639 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:21"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.427 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:21"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/members \u001b[32m201\u001b[0m 21.017 ms - 324\u001b[0m","timestamp":"2025-03-14 16:52:26"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 6.179 ms - 45646\u001b[0m","timestamp":"2025-03-14 16:52:28"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.425 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:28"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.304 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:31"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.635 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:31"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[32m200\u001b[0m 5.944 ms - 19625\u001b[0m","timestamp":"2025-03-14 16:52:33"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[32m200\u001b[0m 1.696 ms - 6084\u001b[0m","timestamp":"2025-03-14 16:52:33"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/workouts \u001b[32m201\u001b[0m 3.858 ms - 305\u001b[0m","timestamp":"2025-03-14 16:52:59"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[32m200\u001b[0m 7.394 ms - 20582\u001b[0m","timestamp":"2025-03-14 16:52:59"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[36m304\u001b[0m 0.362 ms - -\u001b[0m","timestamp":"2025-03-14 16:52:59"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[32m200\u001b[0m 9.917 ms - 17571\u001b[0m","timestamp":"2025-03-14 16:53:08"}
+{"level":"info","message":"\u001b[0mGET /js/records.js \u001b[36m304\u001b[0m 0.309 ms - -\u001b[0m","timestamp":"2025-03-14 16:53:08"}
+{"level":"error","message":"Error creating record: Missing required fields: recordType, value","requestBody":{"date":"1999-03-06T02:53","duration":"31","memberId":"67ca7a6d80ed1f86ca00a46b","notes":"Voluptatem quo paria","reps":"19","sets":"94","weight":"0","workoutId":"67d3e05b61f8a24cef083d99"},"stack":"CustomError: Missing required fields: recordType, value\n    at Object.create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/services/recordService.js:62:15)\n    at create (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/backend/controllers/recordController.js:77:45)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\router\\index.js:175:3)","status":400,"timestamp":"2025-03-14 16:53:34"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/records \u001b[33m400\u001b[0m 1.870 ms - 67\u001b[0m","timestamp":"2025-03-14 16:53:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:04"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:04"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:04"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:04"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:04"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:04"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:23"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:23"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:23"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:24"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 16:55:24"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:24"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:24"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:24"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 16:55:24"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 16:55:47"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 16:55:47"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 16:55:47"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 16:55:47"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 16:55:47"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[32m200\u001b[0m 22.492 ms - 16496\u001b[0m","timestamp":"2025-03-14 16:56:08"}
+{"level":"info","message":"\u001b[0mGET /js/records.js \u001b[32m200\u001b[0m 2.116 ms - 5666\u001b[0m","timestamp":"2025-03-14 16:56:08"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 2.536 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:10"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 0.630 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:10"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 6.485 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:11"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.545 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:11"}
+{"level":"info","message":"\u001b[0mGET /workouts \u001b[36m304\u001b[0m 6.448 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:12"}
+{"level":"info","message":"\u001b[0mGET /js/workouts.js \u001b[36m304\u001b[0m 0.962 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:12"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[36m304\u001b[0m 8.435 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:14"}
+{"level":"info","message":"\u001b[0mGET /js/records.js \u001b[36m304\u001b[0m 0.458 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:14"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/records \u001b[32m201\u001b[0m 18.016 ms - 325\u001b[0m","timestamp":"2025-03-14 16:56:52"}
+{"level":"info","message":"\u001b[0mGET /records \u001b[32m200\u001b[0m 18.771 ms - 17333\u001b[0m","timestamp":"2025-03-14 16:56:53"}
+{"level":"info","message":"\u001b[0mGET /js/records.js \u001b[36m304\u001b[0m 0.491 ms - -\u001b[0m","timestamp":"2025-03-14 16:56:53"}
+{"level":"info","message":"\u001b[0mGET / \u001b[36m304\u001b[0m 1.920 ms - -\u001b[0m","timestamp":"2025-03-14 16:57:03"}
+{"level":"info","message":"\u001b[0mGET /js/home.js \u001b[36m304\u001b[0m 1.004 ms - -\u001b[0m","timestamp":"2025-03-14 16:57:03"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 5.710 ms - -\u001b[0m","timestamp":"2025-03-14 16:57:04"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.419 ms - -\u001b[0m","timestamp":"2025-03-14 16:57:04"}
+{"level":"error","message":"\n🕒 Timestamp: 2025/3/14 16:57:08\n❗ Error Message: C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\views\\memberDetails.ejs:28\n    26|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Email:</span> <%= member.email %></p>\n    27|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Phone:</span> <%= member.phone %></p>\n >> 28|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Gender:</span> <%= member.gender.charAt(0).toUpperCase() + member.gender.slice(1) %></p>\n    29|                             </div>\n    30|                         </div>\n    31|                     </div>\n\nCannot read properties of undefined (reading 'charAt')\n📂 File Path: Unknown\n🔧 Method Name: Unknown\n📍 Line Number: Unknown\n\n🧩 Stack Trace:\nTypeError: C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\views\\memberDetails.ejs:28\n    26|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Email:</span> <%= member.email %></p>\n    27|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Phone:</span> <%= member.phone %></p>\n >> 28|                                 <p class=\"text-gray-600\"><span class=\"font-medium\">Gender:</span> <%= member.gender.charAt(0).toUpperCase() + member.gender.slice(1) %></p>\n    29|                             </div>\n    30|                         </div>\n    31|                     </div>\n\nCannot read properties of undefined (reading 'charAt')\n    at eval (\"C:\\\\Users\\\\ラナモハマドショヘル\\\\Desktop\\\\learnig_folder\\\\jim_application\\\\views\\\\memberDetails.ejs\":30:40)\n    at memberDetails (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\ejs\\lib\\ejs.js:703:17)\n    at tryHandleCache (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\ejs\\lib\\ejs.js:274:36)\n    at exports.renderFile [as engine] (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\ejs\\lib\\ejs.js:491:10)\n    at View.render (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\view.js:135:8)\n    at tryRender (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\application.js:657:10)\n    at Function.render (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\application.js:609:3)\n    at ServerResponse.render (C:\\Users\\ラナモハマドショヘル\\Desktop\\learnig_folder\\jim_application\\node_modules\\express\\lib\\response.js:1049:7)\n    at renderMemberDetails (file:///C:/Users/%E3%83%A9%E3%83%8A%E3%83%A2%E3%83%8F%E3%83%9E%E3%83%89%E3%82%B7%E3%83%A7%E3%83%98%E3%83%AB/Desktop/learnig_folder/jim_application/src/frontend/controllers/memberViewController.js:48:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n","timestamp":"2025-03-14 16:57:08"}
+{"level":"info","message":"\u001b[0mGET /members/67ca79f1b5db628d0345a2d3 \u001b[31m500\u001b[0m 6.475 ms - 774\u001b[0m","timestamp":"2025-03-14 16:57:08"}
+{"level":"info","message":"\u001b[0mGET /members/67ca79f1b5db628d0345a2d3 \u001b[32m200\u001b[0m 4.022 ms - 7764\u001b[0m","timestamp":"2025-03-14 16:58:06"}
+{"level":"warn","message":"404 - Route not found: /css/styles.css","timestamp":"2025-03-14 16:58:06"}
+{"level":"info","message":"\u001b[0mGET /css/styles.css \u001b[33m404\u001b[0m 3.542 ms - 5628\u001b[0m","timestamp":"2025-03-14 16:58:06"}
+{"level":"info","message":"\u001b[0mGET /js/main.js \u001b[36m304\u001b[0m 0.800 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:06"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[36m304\u001b[0m 6.080 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:11"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.461 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:11"}
+{"level":"info","message":"\u001b[0mGET /api/v1/members/67ca79f1b5db628d0345a2d3 \u001b[32m200\u001b[0m 2.377 ms - 340\u001b[0m","timestamp":"2025-03-14 16:58:14"}
+{"level":"info","message":"\u001b[0mPUT /api/v1/members/67ca79f1b5db628d0345a2d3 \u001b[32m200\u001b[0m 4.872 ms - 352\u001b[0m","timestamp":"2025-03-14 16:58:31"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 5.878 ms - 45642\u001b[0m","timestamp":"2025-03-14 16:58:34"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.377 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:34"}
+{"level":"info","message":"\u001b[0mDELETE /api/v1/members/67ca79f1b5db628d0345a2d3 \u001b[32m200\u001b[0m 2.917 ms - 51\u001b[0m","timestamp":"2025-03-14 16:58:41"}
+{"level":"info","message":"\u001b[0mGET /members \u001b[32m200\u001b[0m 6.054 ms - 44536\u001b[0m","timestamp":"2025-03-14 16:58:44"}
+{"level":"info","message":"\u001b[0mGET /js/members.js \u001b[36m304\u001b[0m 0.281 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:44"}
+{"level":"info","message":"\u001b[0mGET /members/67ca7a3569e93a63139d6085 \u001b[32m200\u001b[0m 2.981 ms - 7758\u001b[0m","timestamp":"2025-03-14 16:58:48"}
+{"level":"warn","message":"404 - Route not found: /css/styles.css","timestamp":"2025-03-14 16:58:48"}
+{"level":"info","message":"\u001b[0mGET /css/styles.css \u001b[33m404\u001b[0m 2.750 ms - 5628\u001b[0m","timestamp":"2025-03-14 16:58:48"}
+{"level":"info","message":"\u001b[0mGET /js/main.js \u001b[36m304\u001b[0m 0.259 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:48"}
+{"level":"warn","message":"404 - Route not found: /members/edit/67ca7a3569e93a63139d6085","timestamp":"2025-03-14 16:58:50"}
+{"level":"info","message":"\u001b[0mGET /members/edit/67ca7a3569e93a63139d6085 \u001b[33m404\u001b[0m 2.094 ms - 5628\u001b[0m","timestamp":"2025-03-14 16:58:50"}
+{"level":"info","message":"\u001b[0mGET /js/404.js \u001b[32m200\u001b[0m 0.879 ms - -\u001b[0m","timestamp":"2025-03-14 16:58:50"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:15"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:15"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:15"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:15"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:15"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:00:16"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:00:16"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:00:16"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:00:17"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Server started on port 5000 http://localhost:5000","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:01:34"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:01:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:01:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:01:34"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:01:34"}
+{"level":"info","message":"Calling startServer function...","timestamp":"2025-03-14 17:01:43"}
+{"level":"info","message":"Starting server...","timestamp":"2025-03-14 17:01:43"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-03-14 17:01:43"}
+{"level":"info","message":"MongoDB connected, now starting Express server...","timestamp":"2025-03-14 17:01:43"}
+{"level":"warn","message":"Port 5000 is already in use, attempting to free it...","timestamp":"2025-03-14 17:01:43"}
+{"level":"error","message":"Could not free port 5000. Please manually close the application using this port.","timestamp":"2025-03-14 17:01:43"}

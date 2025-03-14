@@ -1,11 +1,8 @@
 // Import required modules
 import express from 'express';
 import path from 'path';
-import router from './routes/index.js';
-import pageRoutes from './routes/pageRoutes.js';
-import logger from './config/logger.js';
-import morganMiddleware from './config/morgan.js';
-import { errorHandler } from './middleware/errorHandler.js';
+import { router, logger, morganMiddleware, errorHandler } from './backend/index.js';
+import { pageRoutes } from './frontend/index.js';
 
 const app = express();
 

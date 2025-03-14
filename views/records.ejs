@@ -6,38 +6,47 @@
 
   <section class="form-section mb-8">
     <h2 class="text-2xl font-semibold mb-4">Add Training Record</h2>
-    <form id="record-form" class="space-y-6">
+    <form id="record-form" method="POST" action="/api/v1/records" class="space-y-6">
       <div class="form-group">
         <label for="memberId" class="block text-lg">Member:</label>
         <select id="memberId" name="memberId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="">Select Member</option>
+          <% if (members && members.length > 0) { %>
+            <% members.forEach(member => { %>
+              <option value="<%= member._id %>"><%= member.name %></option>
+            <% }); %>
+          <% } %>
         </select>
       </div>
       <div class="form-group">
         <label for="workoutId" class="block text-lg">Workout:</label>
         <select id="workoutId" name="workoutId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
           <option value="">Select Workout</option>
+          <% if (workouts && workouts.length > 0) { %>
+            <% workouts.forEach(workout => { %>
+              <option value="<%= workout._id %>"><%= workout.workoutType %> - <%= new Date(workout.date).toLocaleDateString() %></option>
+            <% }); %>
+          <% } %>
         </select>
+      </div>
+      <div class="form-group">
+        <label for="recordType" class="block text-lg">Record Type:</label>
+        <select id="recordType" name="recordType" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">Select Record Type</option>
+          <option value="weight">Weight</option>
+          <option value="reps">Repetitions</option>
+          <option value="distance">Distance</option>
+          <option value="time">Time</option>
+          <option value="calories">Calories</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="value" class="block text-lg">Value:</label>
+        <input type="number" id="value" name="value" min="0" step="0.01" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
       </div>
       <div class="form-group">
         <label for="date" class="block text-lg">Date:</label>
         <input type="datetime-local" id="date" name="date" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-      </div>
-      <div class="form-group">
-        <label for="duration" class="block text-lg">Duration (minutes):</label>
-        <input type="number" id="duration" name="duration" required min="1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-      </div>
-      <div class="form-group">
-        <label for="intensity" class="block text-lg">Intensity (1-10):</label>
-        <input type="number" id="intensity" name="intensity" required min="1" max="10" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-      </div>
-      <div class="form-group">
-        <label for="caloriesBurned" class="block text-lg">Calories Burned:</label>
-        <input type="number" id="caloriesBurned" name="caloriesBurned" min="0" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-      </div>
-      <div class="form-group">
-        <label for="notes" class="block text-lg">Notes:</label>
-        <textarea id="notes" name="notes" rows="3" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
       </div>
       <button type="submit" class="btn-primary bg-blue-500 text-white py-2 px-6 rounded-md shadow-lg hover:bg-blue-600 transition duration-200">Add Record</button>
     </form>
@@ -46,7 +55,28 @@
   <section class="list-section mb-8">
     <h2 class="text-2xl font-semibold mb-4">Training Records</h2>
     <div id="records-list" class="cards-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Records will be loaded here by JavaScript -->
+      <% if (records && records.length > 0) { %>
+        <% records.forEach(record => { %>
+          <div class="record-card bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">
+              <%= record.memberId && record.memberId.name ? record.memberId.name : 'Unknown Member' %> - 
+              <%= record.workoutId && record.workoutId.workoutType ? record.workoutId.workoutType : 'Unknown Workout' %>
+            </h3>
+            <p class="text-gray-600 mb-2"><strong>Record Type:</strong> <%= record.recordType %></p>
+            <p class="text-gray-600 mb-2"><strong>Value:</strong> <%= record.value %></p>
+            <p class="text-gray-600 mb-2"><strong>Date:</strong> <%= new Date(record.date).toLocaleDateString() %> <%= new Date(record.date).toLocaleTimeString() %></p>
+            <div class="mt-4 flex space-x-2">
+              <a href="/records/<%= record._id %>" class="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition">View</a>
+              <button class="btn-edit px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition" data-id="<%= record._id %>">Edit</button>
+              <button class="btn-delete px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition" data-id="<%= record._id %>">Delete</button>
+            </div>
+          </div>
+        <% }); %>
+      <% } else { %>
+        <div class="col-span-full text-center py-8 text-gray-500">
+          <p>No records found. Add your first training record using the form above!</p>
+        </div>
+      <% } %>
     </div>
   </section>
 
@@ -62,6 +92,11 @@
           <label for="edit-memberId" class="block text-lg">Member:</label>
           <select id="edit-memberId" name="memberId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
             <option value="">Select Member</option>
+            <% if (members && members.length > 0) { %>
+              <% members.forEach(member => { %>
+                <option value="<%= member._id %>"><%= member.name %></option>
+              <% }); %>
+            <% } %>
           </select>
         </div>
 
@@ -69,32 +104,34 @@
           <label for="edit-workoutId" class="block text-lg">Workout:</label>
           <select id="edit-workoutId" name="workoutId" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
             <option value="">Select Workout</option>
+            <% if (workouts && workouts.length > 0) { %>
+              <% workouts.forEach(workout => { %>
+                <option value="<%= workout._id %>"><%= workout.workoutType %> - <%= new Date(workout.date).toLocaleDateString() %></option>
+              <% }); %>
+            <% } %>
           </select>
+        </div>
+
+        <div class="form-group">
+          <label for="edit-recordType" class="block text-lg">Record Type:</label>
+          <select id="edit-recordType" name="recordType" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="">Select Record Type</option>
+            <option value="weight">Weight</option>
+            <option value="reps">Repetitions</option>
+            <option value="distance">Distance</option>
+            <option value="time">Time</option>
+            <option value="calories">Calories</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="edit-value" class="block text-lg">Value:</label>
+          <input type="number" id="edit-value" name="value" min="0" step="0.01" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
 
         <div class="form-group">
           <label for="edit-date" class="block text-lg">Date:</label>
           <input type="datetime-local" id="edit-date" name="date" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-
-        <div class="form-group">
-          <label for="edit-duration" class="block text-lg">Duration (minutes):</label>
-          <input type="number" id="edit-duration" name="duration" required min="1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-
-        <div class="form-group">
-          <label for="edit-intensity" class="block text-lg">Intensity (1-10):</label>
-          <input type="number" id="edit-intensity" name="intensity" required min="1" max="10" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-
-        <div class="form-group">
-          <label for="edit-caloriesBurned" class="block text-lg">Calories Burned:</label>
-          <input type="number" id="edit-caloriesBurned" name="caloriesBurned" min="0" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-
-        <div class="form-group">
-          <label for="edit-notes" class="block text-lg">Notes:</label>
-          <textarea id="edit-notes" name="notes" rows="3" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
         </div>
 
         <button type="submit" class="btn-primary bg-blue-500 text-white py-2 px-6 rounded-md shadow-lg hover:bg-blue-600 transition duration-200">Update Record</button>
@@ -103,8 +140,5 @@
   </div>
 </main>
 
-<!-- Link to external CSS and JS files -->
-<!-- <link rel="stylesheet" href="/css/records.css">
-<link rel="stylesheet" href="/css/responsive.css"> -->
 <script src="/js/records.js"></script>
 <%- include('partials/footer') %>

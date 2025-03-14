@@ -42,5 +42,6 @@
   "explorer.compactFolders": false,
 
   // Terminal settings
-  "terminal.integrated.defaultProfile.windows": "PowerShell"
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "postman.settings.dotenv-detection-notification-visibility": false
 }

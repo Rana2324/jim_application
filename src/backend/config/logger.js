@@ -8,7 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Define the path for the log directory and ensure it exists
-const logDirectory = path.join(__dirname, 'logs');
+// Move logs outside of the src directory to prevent nodemon from restarting
+const logDirectory = path.join(process.cwd(), 'logs');
 createLogDirectory(logDirectory);
 
 // Function to create log directory if it doesn't exist
