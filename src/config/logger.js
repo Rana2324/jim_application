@@ -1,74 +1,83 @@
 import winston from 'winston';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
+// Get the current file name and directory path
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Define log directory path
-const logDirectory = path.join(path.dirname(__dirname), 'logs');
+// Define the path for the log directory and ensure it exists
+const logDirectory = path.join(__dirname, 'logs');
+createLogDirectory(logDirectory);
 
-// Custom format for console logs with colors
-const consoleFormat = winston.format.combine(
-  winston.format.colorize(),
+// Function to create log directory if it doesn't exist
+function createLogDirectory(directoryPath) {
+  if (!fs.existsSync(directoryPath)) {
+    fs.mkdirSync(directoryPath);
+  }
+}
+
+// Function to generate the timestamp format
+const generateTimestampFormat = () => winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' });
+
+// General log format with timestamp and colorize
+const logFormat = winston.format.combine(
+  winston.format.colorize({ all: true, colors: { info: 'green', warn: 'yellow', error: 'red' } }),
   winston.format.printf(({ level, message }) => {
-    // For error messages that are already formatted in our custom format
-    if (level.includes('error') && message.includes('Timestamp:')) {
-      const lines = message.split('\n');
-      return [
-        `\x1b[31m${lines[0]}\x1b[0m`, // Timestamp in red
-        `\x1b[1;31m${lines[1]}\x1b[0m`, // Error Message in bold red
-        `\x1b[36m${lines[2]}\x1b[0m`, // File in cyan
-        `\x1b[35m${lines[3]}\x1b[0m`, // Method in magenta
-        `\x1b[33m${lines[4]}\x1b[0m`, // Line in yellow
-        `\x1b[37m${lines[5]}\x1b[0m`, // Stack Trace header in white
-        ...lines.slice(6).map(line => `\x1b[90m${line}\x1b[0m`) // Stack trace in gray
-      ].join('\n');
-    }
-    return `${level}: ${message}`;
+    return `${level}: ${message}  ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}`;
   })
 );
 
-// Custom format for detailed error logging in files
-const detailedErrorFormat = winston.format.printf(({ message }) => {
-  return message; // Return the message exactly as is, without any additional formatting
+// Detailed log format with timestamp for errors and rejections
+const detailedErrorFormat = winston.format.printf(({ timestamp, level, message }) => {
+  return `${timestamp} - ${level}: ${message}`;
 });
 
-// logger configuration
+// Create common transport settings for file logs
+const createFileTransport = (filename, level = 'info', format = detailedErrorFormat) => {
+  return new winston.transports.File({
+    filename: path.join(logDirectory, filename),
+    level: level,
+    format: winston.format.combine(generateTimestampFormat(), format),
+  });
+};
+
+// Logger setup
 const logger = winston.createLogger({
-  level: 'info',
+  level: 'info', // Default log level is 'info'
+  
   transports: [
+    // Log to console with colorized output
     new winston.transports.Console({
-      format: consoleFormat
+      format: logFormat,
     }),
-    new winston.transports.File({
-      filename: path.join(logDirectory, 'error.log'),
-      level: 'error',
-      format: detailedErrorFormat // Use only the detailed error format without timestamp
-    }),
+
+    // Error log file (only error-level messages)
+    createFileTransport('error.log', 'error'),
+
+    // Combined log file (logs all levels: info, warn, error)
     new winston.transports.File({
       filename: path.join(logDirectory, 'combined.log'),
       format: winston.format.combine(
-        winston.format.timestamp(),
-        winston.format.json()
+        generateTimestampFormat(),
+        winston.format.json() // JSON format for easy parsing
       ),
     }),
   ],
-  // Add exception handling
+
+  // Handling unhandled exceptions
   exceptionHandlers: [
-    new winston.transports.File({
-      filename: path.join(logDirectory, 'exceptions.log'),
-      format: detailedErrorFormat
-    })
+    createFileTransport('exceptions.log', 'error'),
   ],
-  // Add promise rejection handling
+
+  // Handling promise rejections
   rejectionHandlers: [
-    new winston.transports.File({
-      filename: path.join(logDirectory, 'rejections.log'),
-      format: detailedErrorFormat
-    })
+    createFileTransport('rejections.log', 'error'),
   ],
-  exitOnError: false
+
+  // Prevents process from exiting on handled errors
+  exitOnError: false,
 });
 
 export default logger;

@@ -1,7 +1,6 @@
 // Import required modules
 import express from 'express';
 import path from 'path';
-import morgan from 'morgan';
 import router from './routes/index.js';
 import pageRoutes from './routes/pageRoutes.js';
 import logger from './config/logger.js';

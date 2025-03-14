@@ -1,16 +1,21 @@
 import Member from "../models/memberModel.js";
 import CustomError from "../utils/customError.js";
+import logger from "../config/logger.js";
 
 
 const memberService = {
     getAll: async () => {
         try {
-            const members = await Member.fin();
+            const members = await Member.find();
             if (!members || members.length === 0) {
                 throw new CustomError('No members found', 404);
             }
             return members;
         } catch (error) {
+            logger.error(`Error in getAll: ${error.message}`, {
+                stack: error.stack,
+                status: error.status || 500,
+            });
             throw new CustomError('Failed to retrieve members', error.status || 500);
         }
     },

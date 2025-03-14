@@ -1,4 +1,5 @@
 # Jim Application - Workout Management System
+
 ## জিম অ্যাপ্লিকেশন - ওয়ার্কআউট ম্যানেজমেন্ট সিস্টেম
 
 A RESTful API service for managing workout routines, members, and exercise records using MongoDB.
@@ -53,6 +54,7 @@ npm start
 Base URL: `http://localhost:5000/api/v1`
 
 #### Workouts | ওয়ার্কআউট
+
 - `GET /workouts` - Get all workouts | সব ওয়ার্কআউট দেখুন
 - `GET /workouts/:workoutId` - Get a specific workout | নির্দিষ্ট ওয়ার্কআউট দেখুন
 - `POST /workouts` - Create a new workout | নতুন ওয়ার্কআউট তৈরি করুন
@@ -60,6 +62,7 @@ Base URL: `http://localhost:5000/api/v1`
 - `DELETE /workouts/:workoutId` - Delete a workout | ওয়ার্কআউট ডিলিট করুন
 
 #### Members | মেম্বার
+
 - `GET /members` - Get all members | সব মেম্বার দেখুন
 - `GET /members/:memberId` - Get a specific member | নির্দিষ্ট মেম্বার দেখুন
 - `POST /members` - Register a new member | নতুন মেম্বার নিবন্ধন করুন
@@ -67,6 +70,7 @@ Base URL: `http://localhost:5000/api/v1`
 - `DELETE /members/:memberId` - Delete a member | মেম্বার ডিলিট করুন
 
 #### Records | রেকর্ড
+
 - `GET /records` - Get all records | সব রেকর্ড দেখুন
 - `GET /records/:recordId` - Get a specific record | নির্দিষ্ট রেকর্ড দেখুন
 - `POST /records` - Create a new record | নতুন রেকর্ড তৈরি করুন
@@ -75,6 +79,7 @@ Base URL: `http://localhost:5000/api/v1`
 ### Data Models | ডাটা মডেল
 
 #### Workout Model | ওয়ার্কআউট মডেল
+
 ```javascript
 {
     name: String,
@@ -86,6 +91,7 @@ Base URL: `http://localhost:5000/api/v1`
 ```
 
 #### Member Model | মেম্বার মডেল
+
 ```javascript
 {
     name: String,
@@ -99,6 +105,7 @@ Base URL: `http://localhost:5000/api/v1`
 ```
 
 #### Record Model | রেকর্ড মডেল
+
 ```javascript
 {
     members: [ObjectId],
@@ -133,6 +140,7 @@ The application includes a custom error handling system that provides clear erro
 ### Environment Variables | এনভায়রনমেন্ট ভ্যারিয়েবল
 
 Required environment variables:
+
 - `PORT`: Server port (default: 5000)
 - `MONGODB_URI`: MongoDB connection string (default: mongodb://localhost:27017/jim_application)
 
@@ -143,3 +151,11 @@ Required environment variables:
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
+
+### Morgan & Streams | মর্গন স্ট্রিম docs
+
+https://www.notion.so/Morgan-1737b9a159e78065b1f1f2602b394a3c?pvs=25
+
+### winston || ওয়াইসনার docs
+
+https://www.notion.so/Winston-1b67b9a159e7806b8748e3779511d7b2?pvs=25

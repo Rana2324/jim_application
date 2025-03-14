@@ -6,7 +6,7 @@ export const errorHandler = (err, req, res, next) => {
   const timestamp = new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
   const errorMessage = err.message || "Internal Server Error";
   const status = err.status || 500;
-  
+
   // Extract file, method and line number from stack trace
   let filePath = "Unknown";
   let methodName = "Unknown";
@@ -19,9 +19,12 @@ export const errorHandler = (err, req, res, next) => {
       // Second line typically contains file and line information
       const fileLineMatch = stackLines[1].match(/at\s+(.*)\s+\((.*):(\d+):(\d+)\)/);
       if (fileLineMatch) {
+
         methodName = fileLineMatch[1];
         filePath = fileLineMatch[2];
         lineNumber = fileLineMatch[3];
+        
+
       } else {
         // Alternative format: at /path/to/file.js:line:column
         const altMatch = stackLines[1].match(/at\s+(.*):(\d+):(\d+)/);
@@ -34,21 +37,28 @@ export const errorHandler = (err, req, res, next) => {
   }
 
   // Format the error log exactly as requested
-  const formattedErrorLog = 
-  `Timestamp: ${timestamp}
-   Error Message: ${errorMessage}
-   File: ${filePath}
-   Method: ${methodName}
-   Line: ${lineNumber}
-   Stack Trace:
-   ${err.stack || 'No stack trace available'}`;
+  const formattedErrorLog = `
+🕒 Timestamp: ${timestamp}
+❗ Error Message: ${errorMessage}
+📂 File Path: ${filePath}
+🔧 Method Name: ${methodName}
+📍 Line Number: ${lineNumber}
 
-  // Log detailed error with Winston
-  logger.error(formattedErrorLog);
+🧩 Stack Trace:
+${err.stack || 'No stack trace available'}
+`;
 
-  // Send error response
-  res.status(status).json({
-    status: "error",
-    message: errorMessage,
-  });
+// Log detailed error with Winston
+logger.error(formattedErrorLog);
+
+// Send error response
+res.status(status).json({
+  status: "error",
+  message: errorMessage,
+});
+
+// Close the errorHandler function
 };
+
+
+

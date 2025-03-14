@@ -5,22 +5,15 @@ import logger from './logger.js';
 
 dotenv.config();
 
-const connectDb = async () => {
+const connectDB = async () => {
     try {
-        if (!process.env.MONGODB_URI) {
-            throw new Error("MONGODB_URI is not defined in the environment variables");
-        }
-
-        const conn = await mongoose.connect(process.env.MONGODB_URI);
-        // console.log(`MongoDB Connected: ${conn.connection.host}`);
-        logger.info(`MongoDB Connected: ${conn.connection.host}`);
-        return conn;
+      const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/jim_application';
+      await mongoose.connect(mongoURI);
+      logger.info('MongoDB connected successfully');
     } catch (error) {
-        // console.error(`MongoDB Connection Error: ${error.message}`);
-        logger.error(`MongoDB Connection Error: ${error.message}`);
-
-        process.exit(1); // Exit if we can't connect to MongoDB
+      logger.error('MongoDB connection failed', { message: error.message, stack: error.stack });
+     
     }
-};
+  };
 
-export default connectDb;
+export default connectDB;
